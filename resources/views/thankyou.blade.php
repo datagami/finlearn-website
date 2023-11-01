@@ -1,131 +1,76 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Thank You</title>
+    <title>Thank You Page</title>
+    <!-- Add Bootstrap CSS link -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
-        * {
-  box-sizing: border-box;
-  /* outline:1px solid ;*/
-}
-body {
-  background: #ffffff;
-  background: linear-gradient(to bottom, #ffffff 0%, #e1e8ed 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e1e8ed',GradientType=0 );
-  height: 100%;
-  margin: 0;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
+    /* Custom CSS styles */
+    body {
+        background-image: url('https://www.markaz.com/getmedia/c083b008-b6ba-4e17-9da5-6408b1137a4f/investment.jpg?width=1600&height=800&ext=.jpg');
+        /* Add your image URL here */
+        background-size: cover;
+        background-repeat: no-repeat;
+        text-align: center;
+    }
 
-.wrapper-1 {
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-}
-.wrapper-2 {
-  padding: 30px;
-  text-align: center;
-}
-h1 {
-  font-family: "Kaushan Script", cursive;
-  font-size: 4em;
-  letter-spacing: 3px;
-  color: #fecb10;
-  margin: 0;
-  margin-bottom: 20px;
-}
-.wrapper-2 p {
-  margin: 0;
-  font-size: 1.3em;
-  color: #aaa;
-  font-family: "Source Sans Pro", sans-serif;
-  letter-spacing: 1px;
-}
-.go-home {
-  color: #fff;
-  background: #fecb10;
-  border: none;
-  padding: 10px 50px;
-  margin: 30px 0;
-  border-radius: 30px;
-  text-transform: capitalize;
-  box-shadow: 0 10px 16px 1px rgba(174, 199, 251, 1);
-}
-.footer-like {
-  margin-top: auto;
-  background: #d7e6fe;
-  padding: 6px;
-  text-align: center;
-}
-.footer-like p {
-  margin: 0;
-  padding: 4px;
-  color: #5892ff;
-  font-family: "Source Sans Pro", sans-serif;
-  letter-spacing: 1px;
-}
-.footer-like p a {
-  text-decoration: none;
-  color: #5892ff;
-  font-weight: 600;
-}
+    .thank-you-container {
+        background-color: rgba(255, 255, 255, 0.9);
+        /* Add a semi-transparent white background */
+        border-radius: 10px;
+        padding: 20px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        margin-top: 100px;
+    }
 
-@media (min-width: 360px) {
-  h1 {
-    font-size: 4.5em;
-  }
-  .go-home {
-    margin-bottom: 20px;
-  }
-}
+    .thank-you-text {
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
 
-@media (min-width: 600px) {
-  .content {
-    max-width: 1000px;
-    margin: 0 auto;
-  }
-  .wrapper-1 {
-    height: initial;
-    max-width: 620px;
-    margin: 0 auto;
-    margin-top: 50px;
-    box-shadow: 4px 8px 40px 8px rgba(88, 146, 255, 0.2);
-  }
-}
+    .description {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
 
+    .btn-primary {
+        background-color: #366883;
+        /* Background color */
+        border: none;
+    }
+
+    .btn-primary:hover {
+        background-color: #fecb10;
+        /* Hover background color */
+    }
     </style>
 </head>
 
 <body>
-
-<div class="content">
-        <div class="wrapper-1">
-            <div class="wrapper-2">
-                <h1>Thank you!</h1>
-                <p>Thanks for submitting the form.</p>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-3 thank-you-container">
+                <h1 class="thank-you-text" style="font-weight: 700;">Thank You!</h1>
+                <p class="description">
+                Thanks for submitting the form. Your satisfaction is our priority.
+                </p>
                 @if (session('brochure_form_submitted'))
-                <p>You can download our Brochure. <a href="{{ route('IBOP-Brochure.pdf', ['filename' => 'IBOP-Brochure.pdf']) }}" download>click here to download</a>.</p>
+                <p>To download the brochure, <a href="{{ route('IBOP-Brochure.pdf', ['filename' => 'IBOP-Brochure.pdf']) }}" download style="color:#366883;">click here</a>.</p>
                 @else
-                    <p>You should receive a confirmation email soon.</p>
+                <p>You should have received a confirmation email with more details. Please check your email
+                    inbox for the full information.</p>
                 @endif
-                <button class="go-home">
-                    <a href="{{ route('index') }}" style="color: white;">Go home</a>
-                </button>
+               
+                <a href="{{ route('index') }}" class="btn btn-primary">Go Back To Home</a>
             </div>
         </div>
     </div>
-    <script type="text/javascript">
-        setTimeout(function() {
-            window.location.href = '{{ route("index") }}';
-        }, 5000); // 5000 milliseconds (5 seconds)
-    </script>
 
-    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Source+Sans+Pro" rel="stylesheet">
-
+    <!-- Add Bootstrap JS and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 
 </html>

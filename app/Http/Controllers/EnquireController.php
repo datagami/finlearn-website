@@ -11,8 +11,6 @@ use Illuminate\Support\Facades\DB;
 use Carbon\Carbon; // Add this line to import Carbon
 use Illuminate\Support\Facades\Response;
 
-
-
 class EnquireController extends Controller
 {
     public function enquireslist(Request $request)
@@ -66,7 +64,7 @@ class EnquireController extends Controller
         $recipients = [
             $request->email => [
                 'template' => 'email-body.email-enquiry2',
-                'subject' => 'Finlearn || Enquire Form Submission Confirmation.!',
+                'subject' => 'Thank You for Your Interest! Sit Back and Relax—Our Representative Will Call You',
             ],
             'dipak.kavathe@saletify.com' => [
                 'template' => 'email-body.email-enquiry',

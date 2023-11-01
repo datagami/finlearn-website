@@ -2432,7 +2432,7 @@
 
     <!-- Custom Script -->
     <script src="{{ asset('js/custom.js') }}"></script>
-    <script src="{{ asset('js/close-alert.js') }}"></script>
+    <!-- <script src="{{ asset('js/close-alert.js') }}"></script> -->
 
 </body>
 

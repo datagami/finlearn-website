@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Saletify Forget Password</title>
+    <title>Finlearn Forget Password</title>
 </head>
 <body>
     <p>Hello,</p>
@@ -13,6 +13,6 @@
     <p>This OTP is valid for a limited time and should not be shared with anyone.</p>
     <p>If you didn't request a password reset, you can safely ignore this email.</p>
     <p>Best regards,</p>
-    <p>Saletify</p>
+    <p>Finlearn</p>
 </body>
 </html>
