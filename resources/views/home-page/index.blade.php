@@ -4,26 +4,21 @@
 <head>
 
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="author" content="Jthemes" />
-    <meta name="description" content="eTreeks - Education & Courses Landing Page Template" />
-    <meta name="keywords"
-        content="Responsive, HTML5 Template, Jthemes, Courses, Education, Learning, Online Education, Study">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />    
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- SITE TITLE -->
-    <title>Finlearn - Investment Banking Operations Program (IBOP)</title>
+    <title>Finlearn - Best Investment Banking Course with 100% Job Assurance</title>
+    <meta name="description" content="Become CISI certified investment banking profession with best investment banking course by FinLearn." />
+    <meta name="keywords" content="">    
 
     <base href="{{asset('public')}}/">
 
     <!-- FAVICON AND TOUCH ICONS  -->
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" sizes="152x152" href="images/apple-touch-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="images/apple-touch-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="images/apple-touch-icon-76x76.png">
-    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-    <link rel="icon" href="images/apple-touch-icon.png" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('img/favicon_io/apple-touch-icon.png') }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('img/favicon_io/favicon-32x32.png') }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('img/favicon_io/favicon-16x16.png') }}">
+    <link rel="manifest" href="{{ asset('img/favicon_io/site.webmanifest') }}">
 
     <!-- GOOGLE FONTS -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;display=swap" rel="stylesheet">
@@ -617,7 +612,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="all-courses-btn">
-                            <p>Ready to enhance your career?</p>
+                            <p style="padding-bottom: 10px;">Ready to enhance your career?</p>
                             <!-- <a href="#" class="btn btn-md btn-tra-grey">Enrol Now</a> -->
                             <a rel="noreferrer nofollow" target="_blank" href="javascript:void(0);" data-toggle="modal"
                                 data-target="#enroll-now-popup" aria-label="Enroll Now"><button
@@ -1203,7 +1198,7 @@
                                                     <h3 class="master-career-transition-name">
                                                         Shubham Shinde </h3>
                                                     <p class="master-career-transition-designation">
-                                                    Financial Analyst | India</p>
+                                                        Financial Analyst | India</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -1214,7 +1209,12 @@
                                     </div>
                                     <p class="master-project-work-carousel-description"><span class="ms-eplise-remove"
                                             style="overflow: hidden;text-overflow: ellipsis;-webkit-box-orient: vertical;-moz-box-orient: vertical;-ms-box-orient: vertical;display: -webkit-box;display: -ms-box;display: -moz-box;-webkit-line-clamp: 3;-ms-line-clamp: 3;-moz-line-clamp: 3;">
-                                            The training provided by Finlearn proved instrumental in enabling me to ace interviews and smoothly transition into a Financial Analyst position at HSBC, accompanied by a substantial 80% salary increase. The unwavering support from the skilled support staff and the invaluable mentorship offered by experienced educators played a pivotal role in propelling my career growth.</span> </p>
+                                            The training provided by Finlearn proved instrumental in enabling me to ace
+                                            interviews and smoothly transition into a Financial Analyst position at
+                                            HSBC, accompanied by a substantial 80% salary increase. The unwavering
+                                            support from the skilled support staff and the invaluable mentorship offered
+                                            by experienced educators played a pivotal role in propelling my career
+                                            growth.</span> </p>
 
                                 </div>
                                 <div class="carousel-item" style="text-align:left;">
@@ -1234,9 +1234,13 @@
                                         </div>
                                     </div>
                                     <div class="master-career-transition-hike">
-                                    <span>110% salary hike</span>
+                                        <span>110% salary hike</span>
                                     </div>
-                                    <p class="master-project-work-carousel-description">I began my career in the BPO industry with a strong desire to advance within the financial sector. After careful consideration, I decided to pursue a career in investment banking. I was captivated by the course I undertook and greatly appreciated the invaluable assistance provided by the support team.</p>
+                                    <p class="master-project-work-carousel-description">I began my career in the BPO
+                                        industry with a strong desire to advance within the financial sector. After
+                                        careful consideration, I decided to pursue a career in investment banking. I was
+                                        captivated by the course I undertook and greatly appreciated the invaluable
+                                        assistance provided by the support team.</p>
 
                                 </div>
                                 <div class="carousel-item" style="text-align:left;">
@@ -1250,16 +1254,20 @@
                                                     <h3 class="master-career-transition-name">
                                                         Aditya Ahuja </h3>
                                                     <p class="master-career-transition-designation">
-                                                    Financial Market Advisor | India</p>
+                                                        Financial Market Advisor | India</p>
                                                 </div>
                                             </div>
                                         </div>
 
                                     </div>
                                     <div class="master-career-transition-hike">
-                                    <span>110% salary hike</span>
+                                        <span>110% salary hike</span>
                                     </div>
-                                    <p class="master-project-work-carousel-description">I accomplished a successful shift in my career from accounting to becoming a financial market advisor at BNY Mellon. The comprehensive training provided by Finlearn, coupled with their outstanding placement support, led to enticing job offers from esteemed companies such as Deutsche Bank, CITI Bank, and Barclays.</p>
+                                    <p class="master-project-work-carousel-description">I accomplished a successful
+                                        shift in my career from accounting to becoming a financial market advisor at BNY
+                                        Mellon. The comprehensive training provided by Finlearn, coupled with their
+                                        outstanding placement support, led to enticing job offers from esteemed
+                                        companies such as Deutsche Bank, CITI Bank, and Barclays.</p>
 
                                 </div>
                             </div>
@@ -2302,6 +2310,78 @@
         </div>
 
 
+
+        <!-- Close Popup -->
+        <div class="custom-modal" id="upSkillModal">
+            <div class="modal-content-popup">
+                <span class="close" id="modalClose">&times;</span>
+                <div class="modal-body">
+                   <div class="m-heding">
+                   <p><strong>You have last chance to upskill your career.</strong></p>
+                   </div>
+                        <form class="form-default" action="{{ route('enquires') }}" method="POST" name="form"
+                            id="mscrspgdc" accept-charset="UTF-8" enctype="multipart/form-data">
+                            {!! csrf_field() !!}
+
+                            @if (Session::has('error'))
+                            <div class="alert alert-danger">
+                                {{ Session::get('error') }}
+                            </div>
+                            @endif
+
+                            @if (Session::has('success'))
+                            <div class="alert alert-success">
+                                {{ Session::get('success') }}
+                            </div>
+                            @endif
+
+                            <div class="form-group">
+                                <input class="form-control" id="name" name="name" placeholder="Full Name*" type="text"
+                                    name="SingleLine" value="" fieldtype="1" maxlength="255" required="">
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" placeholder="Email*" name="email" type="email"
+                                    maxlength="255" id="email" value="" fieldtype="9" required="">
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control rounded-0" placeholder="Mobile Number*" type="number"
+                                    compname="PhoneNumber" name="phone" phoneformat="1" iscountrycodeenabled="true"
+                                    maxlength="20" value="" fieldtype="11" id="msctus_phone_no" required="">
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" placeholder="City Name*" type="text" name="city" value=""
+                                    fieldtype="2" maxlength="255" required>
+                            </div>
+                            <div class="form-group">
+                                <div class="row">
+                                    <div class="col">
+                                        <input class="form-control" placeholder="Years of Work Experience*"
+                                            type="number" name="exp_yrs" min="0" required>
+                                    </div>
+                                    <div class="col">
+                                        <input class="form-control" placeholder="Months of Work Experience*"
+                                            type="number" name="months" min="0" max="11" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group form-check">
+                                <input type="checkbox" class="form-check-input" name="crspgdccheck" id="mscrspgdccheck1"
+                                    required value="true" checked>
+                                <label class="form-check-label" for="mscrspgdccheck1">By providing your contact details,
+                                    you
+                                    agree to our Terms of Use & Privacy Policy</label>
+                            </div>
+                            <div class="form">
+                                <input id="ip-vk-zh-dw" type="submit" value="Enroll Now"
+                                    class="btn btn-md btn-rose tra-black-hover">
+                            </div>
+                        </form>
+                    </div>
+            </div>
+        </div>
+
+
+
         <script async src='https://d2mpatx37cqexb.cloudfront.net/delightchat-whatsapp-widget/embeds/embed.min.js'>
         </script>
         <script>
@@ -2413,6 +2493,7 @@
 		============================================= -->
     <script src="{{ asset('js/jquery-3.3.1.min.js') }}"></script>
     <script src="{{ asset('js/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('js/close-alert.js') }}"></script>
     <script src="{{ asset('js/modernizr.custom.js') }}"></script>
     <script src="{{ asset('js/jquery.easing.js') }}"></script>
     <script src="{{ asset('js/jquery.appear.js') }}"></script>
@@ -2432,7 +2513,7 @@
 
     <!-- Custom Script -->
     <script src="{{ asset('js/custom.js') }}"></script>
-    <!-- <script src="{{ asset('js/close-alert.js') }}"></script> -->
+
 
 </body>
 

@@ -1002,8 +1002,8 @@ ul.ico-list li i {
 .scroll .btn-rose,
 .white-color .btn-rose {
     color: #fff !important;
-    background-color: #fecb10;
-    border-color: #fdd12d;
+    background-color: #00456f;
+    border-color: #00456f;
 }
 
 .btn-teal,
@@ -1056,9 +1056,10 @@ ul.ico-list li i {
 
 .tra-black-hover:hover,
 .scroll .tra-black-hover:hover .white-color .tra-black-hover:hover {
-    color: #333 !important;
-    background-color: transparent;
-    border-color: #333 !important;
+    color: #ffff !important;
+    background-color: #00adef;
+    border-color: #00adef !important;
+    
 }
 
 .tra-grey-hover:hover,
@@ -2292,38 +2293,9 @@ li > .lang-select {
   05. HERO
   =========================================================================== */
 
-#hero-2 {
-    background-image: url(../images/hero-2.jpg);
-    padding-top: 180px;
-    padding-bottom: 50px;
-}
-
-#hero-3 {
-    background-image: url(../images/hero-3.jpg);
-    padding-top: 190px;
-    padding-bottom: 240px;
-}
-
-#hero-4 {
-    background-image: url(../images/hero-4.jpg);
-    padding-top: 180px;
-    padding-bottom: 100px;
-}
-
-#hero-6 {
-    background-image: url(../images/hero-6.jpg);
-    padding-top: 190px;
-    padding-bottom: 250px;
-}
-
-#hero-8 {
-    background-image: url(../images/hero-8.jpg);
-    padding-top: 200px;
-    padding-bottom: 175px;
-}
 
 #hero-9 {
-    background-image: url(../images/hero-3.jpg);
+    background-image: url(../images/finlearn-bg.jpg);
     padding-top: 120px;
     padding-bottom: 50px;
 }
@@ -6670,7 +6642,7 @@ nav a#pull {
     display: block;
 }
 #master-career-services-tab li a.active {
-    background-color: #366883;
+    background-color: #00456f;
     color: #fff;
 }
 
@@ -6789,7 +6761,7 @@ nav a#pull {
     font-weight: 600;
     font-size: 13px;
     line-height: 24px;
-    color: #000;
+    color: #00456f;
     /* padding-top: 15px; */
 }
 
@@ -6853,7 +6825,7 @@ nav a#pull {
     font-weight: 600;
     font-size: 16px;
     line-height: 20px;
-    color: #6659b8;
+    color: #00456f;
     padding: 7px 24px 7px 36px;
     position: relative;
     display: inline-block;
@@ -7063,7 +7035,7 @@ nav a#pull {
     min-width: 194px;
     display: inline-block;
     /* background: linear-gradient(270deg,#ff630b 0,#ff7a00 100%); */
-    background: linear-gradient(270deg, #fecb10 0, #fecb10 100%);
+    background: linear-gradient(270deg, #00456f 0, #00456f 100%);
     border-radius: 2px;
     color: #fff;
     font-weight: 700;
@@ -7282,7 +7254,7 @@ nav a#pull {
     line-height: 30px;
     color: #fff;
     position: relative;
-    background: #366883;
+    background: #00456f;
     padding: 8px 18px 8px 40px;
     border-radius: 50px;
     display: inline-block;
@@ -7376,13 +7348,13 @@ nav a#pull {
 .master-counselling-form-text {
     font-size: 14px;
     line-height: 19px;
-    color: #f5c723;
+    color: #00adef;
     margin-bottom: 0;
 }
 
 .master-counselling-form-body {
     padding: 20px;
-    background-color: #366883;
+    background-color: #00456f;
     border-radius: 0 0 4px 4px;
 }
 
@@ -7398,7 +7370,7 @@ nav a#pull {
 
 .master-counselling-form-body .form-default input[type="submit"] {
     /* background: linear-gradient(270deg,#ff630b 0,#f90 100%); */
-    background: linear-gradient(270deg, #fecb10 0, #fecb10 100%);
+    background: linear-gradient(270deg, #00adef 0, #00adef 100%);
     width: 100%;
     color: #fff;
     font-size: 15px;
@@ -7896,7 +7868,7 @@ background-image: url("../images/master-course-sprite.svg?tr=w-400,h-175");
 } */
 
 .modal-new-popup .modal-header {
-    border-top: 4px solid #fecb10;
+    border-top: 4px solid #00adef;
 }
 
 .modal-new-popup .modal-header {
@@ -7944,7 +7916,7 @@ background-image: url("../images/master-course-sprite.svg?tr=w-400,h-175");
 }
 
 .modal-new-popup .form-default input[type="submit"] {
-    background: linear-gradient(270deg, #fecb10 0, #fecb10 100%);
+    background: linear-gradient(270deg, #00456f 0, #00456f 100%);
     border-radius: 4px;
     border: none;
     color: #fff;
@@ -7982,12 +7954,12 @@ svg {
 } */
 
 .color-yellow {
-    background: #fecb10;
+    background: #00aeefb0;
     padding: 7px;
 }
 
 .bordering {
-    border: 5px solid #fecb10;
+    border: 5px solid #00456f;
     padding: 15px;
 }
 
@@ -8003,12 +7975,12 @@ svg {
     }
 }
 .hero-p {
-    color: #fecb10;
+    color: #00adef;
     font-size: 18px;
 }
 @media only screen and (max-width: 600px) {
     .hero-p {
-        color: #fecb10;
+        color: #00adef;
         font-size: 15px;
     }
     .carousel .carousel-indicators {
@@ -8121,7 +8093,7 @@ svg {
         display: block;
     }
     .fixed-footer-cust {
-        background: #fecb10;
+        background: #00456f;
         text-align: center;
         padding: 10px 0px 10px 0px;
         width: 100%;
@@ -8155,3 +8127,63 @@ svg {
         outline: none !important;
     }
 }
+
+
+/* *********************** Custom Modal Code *************************** */
+.custom-modal {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  
+  .modal-content-popup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    max-width: 90%; /* Set a maximum width for the modal */
+  }
+
+  .m-heding{
+    padding-bottom:20px;
+    color: #00456f;
+  }
+  
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  /* Media query for smaller screens (e.g., mobile) */
+  @media screen and (max-width: 768px) {
+    .modal-content-popup {
+      max-width: 90%; /* Adjust the maximum width for smaller screens */
+      padding: 10px; /* Reduce padding for smaller screens */
+    }
+
+    .modal-content-popup {
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        width: 80%;
+        transform: translate(-50%, -50%);
+        background-color: #fff;
+        padding: 20px;
+        text-align: center;
+        border-radius: 5px;
+    }
+  }
+  
+
