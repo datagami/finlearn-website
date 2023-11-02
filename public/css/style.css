@@ -8143,7 +8143,7 @@ svg {
   
   .modal-content-popup {
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: #fff;
@@ -8156,6 +8156,7 @@ svg {
   .m-heding{
     padding-bottom:20px;
     color: #00456f;
+    font-weight: 700;
   }
   
   .close {
@@ -8175,7 +8176,7 @@ svg {
 
     .modal-content-popup {
         position: absolute;
-        top: 60%;
+        top: 50%;
         left: 50%;
         width: 80%;
         transform: translate(-50%, -50%);
