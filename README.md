@@ -64,3 +64,18 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+## How to add an admin user
+
+SSH into server and  run the following command
+```
+cd root
+php artisan tinker
+```
+Now run 
+```
+use Carbon\Carbon;
+DB::table('users')->insert(['name'=>'<Name>' ,'email'=>'<email>','password'=>Hash::make('qwerty@123'), 'created_at'=>Carbon::now(), 'updated_at'=>Carbon::now()])
+```
+
