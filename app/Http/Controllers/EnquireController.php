@@ -66,7 +66,7 @@ class EnquireController extends Controller
                 'template' => 'email-body.email-enquiry2',
                 'subject' => 'Thank You for Your Interest! Sit Back and Relax—Our Representative Will Call You',
             ],
-            'dipak.kavathe@saletify.com' => [
+            'admissions@datagami.in' => [
                 'template' => 'email-body.email-enquiry',
                 'subject' => 'Lead Received || Enquire Form.!',
             ],
@@ -113,7 +113,7 @@ class EnquireController extends Controller
         }
     }
 
-    public function isOnline($site = "https://youtube.com/")
+    public function isOnline($site = "https://datagami.in/")
     {
         if (@fopen($site, "r")) {
             return true;

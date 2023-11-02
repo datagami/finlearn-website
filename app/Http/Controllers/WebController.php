@@ -14,11 +14,6 @@ class WebController extends Controller
         return view('error.404');
     }
 
-    // public function login()
-    // {
-    //     return view('auth.login');
-    // }
-    
 
         public function logout(Request $request)
     {
