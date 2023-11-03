@@ -2317,7 +2317,7 @@
                 <span class="close" id="modalClose">&times;</span>
                 <div class="modal-body">
                    <div class="m-heding">
-                   <p><strong>You have last chance to upskill your career.</strong></p>
+                   <p><strong>Begin Your Journey in Investment Banking</strong></p>
                    </div>
                         <form class="form-default" action="{{ route('enquires') }}" method="POST" name="form"
                             id="mscrspgdc" accept-charset="UTF-8" enctype="multipart/form-data">
@@ -2363,14 +2363,7 @@
                                             type="number" name="months" min="0" max="11" required>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="form-group form-check">
-                                <input type="checkbox" class="form-check-input" name="crspgdccheck" id="mscrspgdccheck1"
-                                    required value="true" checked>
-                                <label class="form-check-label" for="mscrspgdccheck1">By providing your contact details,
-                                    you
-                                    agree to our Terms of Use & Privacy Policy</label>
-                            </div>
+                            </div>                            
                             <div class="form">
                                 <input id="ip-vk-zh-dw" type="submit" value="Enroll Now"
                                     class="btn btn-md btn-rose tra-black-hover">
