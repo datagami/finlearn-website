@@ -1520,7 +1520,7 @@
                         <div class="c1-box-txt">
                             <!-- Icon -->
                             <img src="{{ asset('../img/icons/latter.png') }}" alt="flag-icon" style="width: 30px;" />
-                            <a href="courses-list.html">
+                          
                                 <!-- Text -->
                                 <h5 class="h5-xs">Written by practitioners</h5>
                         </div>
@@ -1529,7 +1529,7 @@
                         <div class="c1-box-txt">
                             <!-- Icon -->
                             <img src="{{ asset('../img/icons/ind.png') }}" alt="flag-icon" />
-                            <a href="courses-list.html">
+                          
                                 <!-- Text -->
                                 <h5 class="h5-xs">India focused study material</h5>
                         </div>
@@ -1538,7 +1538,7 @@
                         <div class="c1-box-txt">
                             <!-- Icon -->
                             <img src="{{ asset('../img/icons/earth.png') }}" alt="flag-icon" />
-                            <a href="courses-list.html">
+                         
                                 <!-- Text -->
                                 <h5 class="h5-xs">Globally portable</h5>
                         </div>
@@ -1547,7 +1547,7 @@
                         <div class="c1-box-txt">
                             <!-- Icon -->
                             <img src="{{ asset('../img/icons/handi.png') }}" alt="flag-icon" style="width: 30px;" />
-                            <a href="courses-list.html">
+                          
                                 <!-- Text -->
                                 <h5 class="h5-xs">Remote learning</h5>
                         </div>
@@ -1556,7 +1556,7 @@
                         <div class="c1-box-txt">
                             <!-- Icon -->
                             <img src="{{ asset('../img/icons/check-mark-ok.png') }}" alt="flag-icon" />
-                            <a href="courses-list.html">
+                         
                                 <!-- Text -->
                                 <h5 class="h5-xs">Recognition and employability</h5>
                         </div>
@@ -1565,7 +1565,7 @@
                         <div class="c1-box-txt">
                             <!-- Icon -->
                             <img src="{{ asset('../img/icons/hammer.png') }}" alt="flag-icon" />
-                            <a href="courses-list.html">
+                          
                                 <!-- Text -->
                                 <h5 class="h5-xs">Practical and relevant</h5>
                         </div>
@@ -1574,7 +1574,7 @@
                         <div class="c1-box-txt">
                             <!-- Icon -->
                             <img src="{{ asset('../img/icons/computer.png') }}" alt="flag-icon" />
-                            <a href="courses-list.html">
+                          
                                 <!-- Text -->
                                 <h5 class="h5-xs">Instant results with computer based testing</h5>
                         </div>
@@ -1583,7 +1583,7 @@
                         <div class="c1-box-txt">
                             <!-- Icon -->
                             <img src="{{ asset('../img/icons/puzzle.png') }}" alt="flag-icon" />
-                            <a href="courses-list.html">
+                          
                                 <!-- Text -->
                                 <h5 class="h5-xs">Specialist knowledge</h5>
                         </div>
@@ -1654,7 +1654,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="all-courses-btn">
-                            <p>See yourself in one of these role?</p>
+                            <p style="padding-bottom:10px;">See yourself in one of these role?</p>
                             <!-- <a href="#" class="btn btn-md btn-tra-grey">Enrol Now</a> -->
                             <a rel="noreferrer nofollow" target="_blank" href="javascript:void(0);" data-toggle="modal"
                                 data-target="#enroll-now-popup" aria-label="Enroll Now"><button

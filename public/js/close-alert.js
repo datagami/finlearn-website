@@ -3,7 +3,7 @@
     setTimeout(function() {
       var modal = document.getElementById('upSkillModal');
       modal.style.display = 'block';
-    }, 10000); // 5000 milliseconds = 10 seconds
+    }, 15000); // 15000 milliseconds = 15 seconds
   }
 
   // Close the modal when the close button is clicked

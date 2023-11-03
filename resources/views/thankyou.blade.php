@@ -47,14 +47,14 @@ body {
     margin-bottom: 20px;
 }
 
-.btn-primary {
-    background-color: #366883;
+.btn-success {
+    background-color: #25D366;
     /* Background color */
     border: none;
 }
 
-.btn-primary:hover {
-    background-color: #fecb10;
+.btn-success:hover {
+    background-color: #23c760;
     /* Hover background color */
 }
 </style>
@@ -65,18 +65,19 @@ body {
     <div class="row">
         <div class="col-md-6 offset-md-3 thank-you-container">
             <h1 class="thank-you-text" style="font-weight: 700;">Thank You!</h1>
-            <p class="description">
-            Thanks for submitting the form. Your satisfaction is our priority.
-            </p>
+            <p>
+            Congratulations on taking the first step towards our Investment Banking Operations Program! Your details are in, and within the next 4 hours, our dedicated representative will reach out to guide you through the doorway to a successful career in Investment Banking. 
+            </p>   
+            <p>Stay tuned, For our upcoming connection to shape your investment banking career together!</p>         
             @if (session('brochure_form_submitted'))
             <p>To download the brochure, <a href="{{ route('IBOP-Brochure.pdf', ['filename' => 'IBOP-Brochure.pdf']) }}" download style="color:#366883;">click here</a>.</p>
             @else
-            <p>You should have received a confirmation email with more details. Please check your email
-                inbox for the full information.</p>
+           
             @endif
            
-            <a href="{{ route('index') }}" class="btn btn-primary">Go Back To Home</a>
-        </div>
+            <a href="https://api.whatsapp.com/send?phone=919833443014" target="_blank" class="btn btn-success">For Further Updates Join Our WhatsApp Group</a>
+        </div> 
+
     </div>
 </div>
 
