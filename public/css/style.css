@@ -7672,6 +7672,14 @@ nav a#pull {
     display: flex;
 }
 
+@media screen and (max-width: 768px) {
+    .fsd_joinfsd_container__C3mHJ {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 50px 50px 50px;
+    }
+}
+
 @media screen and (max-width: 575px) {
     .fsd_joinfsd_container__C3mHJ {
         max-width: 600px;
@@ -7687,10 +7695,12 @@ nav a#pull {
     }
 
     .fsd_joinfsd_grid__IFEM_ {
+        justify-content: center; /* Center horizontally */
         padding-top: 28px;
         display: flex;
         flex-direction: row;
         gap: 10px;
+        justify-content: center; /* Center horizontally */
     }
 
     .fsd_joinfsd_grid2__m_MLm {
@@ -7702,7 +7712,7 @@ nav a#pull {
 
     .fsd_joinfsd_datagrid__RWgKo {
         padding: 5px 5px;
-        width: 70px;
+        width: 60px;
         background: rgba(141, 214, 235, 0.3);
         border-radius: 8px;
         display: flex;
