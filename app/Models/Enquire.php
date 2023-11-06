@@ -17,5 +17,6 @@ class Enquire extends Model
         'city',
         'exp_yrs',
         'months',
+        'status',
     ];
 }
