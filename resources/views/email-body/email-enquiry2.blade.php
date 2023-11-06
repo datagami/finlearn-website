@@ -21,7 +21,7 @@
     
     Warm Regards,<br>
     Team FinLearn<br>
-    Phone: +91 9833443014<br>
+    Phone: +91 8104971761<br>
 Email: admissions@datagami.in
     
     <!--    <p>Below are the details submitted from you. </p>-->
