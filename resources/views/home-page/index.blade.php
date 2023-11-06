@@ -4,13 +4,14 @@
 <head>
 
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- SITE TITLE -->
     <title>Finlearn - Best Investment Banking Course with 100% Job Assurance</title>
-    <meta name="description" content="Become CISI certified investment banking profession with best investment banking course by FinLearn." />
-    <meta name="keywords" content="">    
+    <meta name="description"
+        content="Become CISI certified investment banking profession with best investment banking course by FinLearn." />
+    <meta name="keywords" content="">
 
     <base href="{{asset('public')}}/">
 
@@ -50,6 +51,25 @@
 
     <!-- RESPONSIVE CSS -->
     <link href="{{ asset('css/responsive.css') }}" rel="stylesheet">
+
+    <!-- Google Tag Manager -->
+    <script>
+    (function(w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+            'gtm.start': new Date().getTime(),
+            event: 'gtm.js'
+        });
+        var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s),
+            dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src =
+            'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-NTQL2CR7');
+    </script>
+    <!-- End Google Tag Manager -->
 
 </head>
 
@@ -1520,72 +1540,72 @@
                         <div class="c1-box-txt">
                             <!-- Icon -->
                             <img src="{{ asset('../img/icons/latter.png') }}" alt="flag-icon" style="width: 30px;" />
-                          
-                                <!-- Text -->
-                                <h5 class="h5-xs">Written by practitioners</h5>
+
+                            <!-- Text -->
+                            <h5 class="h5-xs">Written by practitioners</h5>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-3">
                         <div class="c1-box-txt">
                             <!-- Icon -->
                             <img src="{{ asset('../img/icons/ind.png') }}" alt="flag-icon" />
-                          
-                                <!-- Text -->
-                                <h5 class="h5-xs">India focused study material</h5>
+
+                            <!-- Text -->
+                            <h5 class="h5-xs">India focused study material</h5>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-3">
                         <div class="c1-box-txt">
                             <!-- Icon -->
                             <img src="{{ asset('../img/icons/earth.png') }}" alt="flag-icon" />
-                         
-                                <!-- Text -->
-                                <h5 class="h5-xs">Globally portable</h5>
+
+                            <!-- Text -->
+                            <h5 class="h5-xs">Globally portable</h5>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-3">
                         <div class="c1-box-txt">
                             <!-- Icon -->
                             <img src="{{ asset('../img/icons/handi.png') }}" alt="flag-icon" style="width: 30px;" />
-                          
-                                <!-- Text -->
-                                <h5 class="h5-xs">Remote learning</h5>
+
+                            <!-- Text -->
+                            <h5 class="h5-xs">Remote learning</h5>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-3">
                         <div class="c1-box-txt">
                             <!-- Icon -->
                             <img src="{{ asset('../img/icons/check-mark-ok.png') }}" alt="flag-icon" />
-                         
-                                <!-- Text -->
-                                <h5 class="h5-xs">Recognition and employability</h5>
+
+                            <!-- Text -->
+                            <h5 class="h5-xs">Recognition and employability</h5>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-3">
                         <div class="c1-box-txt">
                             <!-- Icon -->
                             <img src="{{ asset('../img/icons/hammer.png') }}" alt="flag-icon" />
-                          
-                                <!-- Text -->
-                                <h5 class="h5-xs">Practical and relevant</h5>
+
+                            <!-- Text -->
+                            <h5 class="h5-xs">Practical and relevant</h5>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-3">
                         <div class="c1-box-txt">
                             <!-- Icon -->
                             <img src="{{ asset('../img/icons/computer.png') }}" alt="flag-icon" />
-                          
-                                <!-- Text -->
-                                <h5 class="h5-xs">Instant results with computer based testing</h5>
+
+                            <!-- Text -->
+                            <h5 class="h5-xs">Instant results with computer based testing</h5>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-3">
                         <div class="c1-box-txt">
                             <!-- Icon -->
                             <img src="{{ asset('../img/icons/puzzle.png') }}" alt="flag-icon" />
-                          
-                                <!-- Text -->
-                                <h5 class="h5-xs">Specialist knowledge</h5>
+
+                            <!-- Text -->
+                            <h5 class="h5-xs">Specialist knowledge</h5>
                         </div>
                     </div>
 
@@ -2316,60 +2336,60 @@
             <div class="modal-content-popup">
                 <span class="close" id="modalClose">&times;</span>
                 <div class="modal-body">
-                   <div class="m-heding">
-                   <p><strong>Begin Your Journey in Investment Banking</strong></p>
-                   </div>
-                        <form class="form-default" action="{{ route('enquires') }}" method="POST" name="form"
-                            id="mscrspgdc" accept-charset="UTF-8" enctype="multipart/form-data">
-                            {!! csrf_field() !!}
-
-                            @if (Session::has('error'))
-                            <div class="alert alert-danger">
-                                {{ Session::get('error') }}
-                            </div>
-                            @endif
-
-                            @if (Session::has('success'))
-                            <div class="alert alert-success">
-                                {{ Session::get('success') }}
-                            </div>
-                            @endif
-
-                            <div class="form-group">
-                                <input class="form-control" id="name" name="name" placeholder="Full Name*" type="text"
-                                    name="SingleLine" value="" fieldtype="1" maxlength="255" required="">
-                            </div>
-                            <div class="form-group">
-                                <input class="form-control" placeholder="Email*" name="email" type="email"
-                                    maxlength="255" id="email" value="" fieldtype="9" required="">
-                            </div>
-                            <div class="form-group">
-                                <input class="form-control rounded-0" placeholder="Mobile Number*" type="number"
-                                    compname="PhoneNumber" name="phone" phoneformat="1" iscountrycodeenabled="true"
-                                    maxlength="20" value="" fieldtype="11" id="msctus_phone_no" required="">
-                            </div>
-                            <div class="form-group">
-                                <input class="form-control" placeholder="City Name*" type="text" name="city" value=""
-                                    fieldtype="2" maxlength="255" required>
-                            </div>
-                            <div class="form-group">
-                                <div class="row">
-                                    <div class="col">
-                                        <input class="form-control" placeholder="Years of Work Experience*"
-                                            type="number" name="exp_yrs" min="0" required>
-                                    </div>
-                                    <div class="col">
-                                        <input class="form-control" placeholder="Months of Work Experience*"
-                                            type="number" name="months" min="0" max="11" required>
-                                    </div>
-                                </div>
-                            </div>                            
-                            <div class="form">
-                                <input id="ip-vk-zh-dw" type="submit" value="Enroll Now"
-                                    class="btn btn-md btn-rose tra-black-hover">
-                            </div>
-                        </form>
+                    <div class="m-heding">
+                        <p><strong>Begin Your Journey in Investment Banking</strong></p>
                     </div>
+                    <form class="form-default" action="{{ route('enquires') }}" method="POST" name="form" id="mscrspgdc"
+                        accept-charset="UTF-8" enctype="multipart/form-data">
+                        {!! csrf_field() !!}
+
+                        @if (Session::has('error'))
+                        <div class="alert alert-danger">
+                            {{ Session::get('error') }}
+                        </div>
+                        @endif
+
+                        @if (Session::has('success'))
+                        <div class="alert alert-success">
+                            {{ Session::get('success') }}
+                        </div>
+                        @endif
+
+                        <div class="form-group">
+                            <input class="form-control" id="name" name="name" placeholder="Full Name*" type="text"
+                                name="SingleLine" value="" fieldtype="1" maxlength="255" required="">
+                        </div>
+                        <div class="form-group">
+                            <input class="form-control" placeholder="Email*" name="email" type="email" maxlength="255"
+                                id="email" value="" fieldtype="9" required="">
+                        </div>
+                        <div class="form-group">
+                            <input class="form-control rounded-0" placeholder="Mobile Number*" type="number"
+                                compname="PhoneNumber" name="phone" phoneformat="1" iscountrycodeenabled="true"
+                                maxlength="20" value="" fieldtype="11" id="msctus_phone_no" required="">
+                        </div>
+                        <div class="form-group">
+                            <input class="form-control" placeholder="City Name*" type="text" name="city" value=""
+                                fieldtype="2" maxlength="255" required>
+                        </div>
+                        <div class="form-group">
+                            <div class="row">
+                                <div class="col">
+                                    <input class="form-control" placeholder="Years of Work Experience*" type="number"
+                                        name="exp_yrs" min="0" required>
+                                </div>
+                                <div class="col">
+                                    <input class="form-control" placeholder="Months of Work Experience*" type="number"
+                                        name="months" min="0" max="11" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form">
+                            <input id="ip-vk-zh-dw" type="submit" value="Enroll Now"
+                                class="btn btn-md btn-rose tra-black-hover">
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
 
@@ -2385,7 +2405,7 @@
             "marginLeft": 20,
             "marginRight": 20,
             "btnPosition": "right",
-            "whatsAppNumber": "919833443014",
+            "whatsAppNumber": "918104971761",
             "welcomeMessage": "Hello",
             "zIndex": 999999,
             "btnColorScheme": "light"
@@ -2408,7 +2428,7 @@
         <div class="col-lg-12 col-sm-12 col-xs-12 fixed-footer-cust hidden-lg">
             <div class="container">
                 <div class="col-lg-6 col-sm-6 col-xs-6 div-line pd0">
-                    <a href="tel:+919833443014" class="fix-link callme">
+                    <a href="tel:+918104971761" class="fix-link callme">
                         <i class="fa fa-phone f-icon" aria-hidden="true"></i> <strong>CALL NOW</strong>
                     </a>
                 </div>
@@ -2440,7 +2460,7 @@
                                     <p>&copy; Copyright Finlearn 2023</p>
                                 </li>
                                 <li>
-                                    <p><a href="tel:+919833443014">+91 9833443014</a></p>
+                                    <p><a href="tel:+918104971761">+91 8104971761</a></p>
                                 </li>
                                 <li>
                                     <p class="last-li"><a
@@ -2507,6 +2527,10 @@
     <!-- Custom Script -->
     <script src="{{ asset('js/custom.js') }}"></script>
 
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NTQL2CR7" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 
 </body>
 
