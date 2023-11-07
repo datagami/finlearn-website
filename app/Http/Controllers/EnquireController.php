@@ -70,7 +70,7 @@ class EnquireController extends Controller
                 'template' => 'email-body.email-enquiry',
                 'subject' => 'Lead Received || Enquire Form.!',
             ],
-        ];
+        ];    
         foreach ($recipients as $recipient => $data) {
             $template = $data['template'];
             $subject = $data['subject'];
@@ -87,7 +87,6 @@ class EnquireController extends Controller
 
             Mail::send($template, $mailData, function ($message) use ($mailData, $recipient, $subject) {
                 $message->to($recipient)
-                    ->from($mailData['fromEmail'], $mailData['fromName'])
                     ->subject($subject);
             });
         }
