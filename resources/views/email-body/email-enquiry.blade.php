@@ -19,7 +19,8 @@
     <strong>Email:</strong> {{ $fromEmail }}<br>
     <strong>Phone:</strong> {{ $phone }}<br>
      <strong>City:</strong> {{ $city }}<br>
-     <strong>Experience:</strong> {{ $exp_yrs }} Years - {{ $months }} Months<br>
+     <strong>Qualification:</strong> {{ $qualification }} <br>
+     <strong>Experience:</strong> {{ $experience }}<br>
     <strong>Last Page Link:</strong>{{ url()->previous() }}<br>
 
 

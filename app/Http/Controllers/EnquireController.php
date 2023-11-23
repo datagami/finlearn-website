@@ -51,8 +51,8 @@ class EnquireController extends Controller
         'email' => 'required|email',
         'phone' => 'required',
         'city' => 'required',
-        'exp_yrs' => 'required',
-        'months' => 'required',
+        'qualification' => 'required',
+        'experience' => 'required',
        
     ]);
 
@@ -81,8 +81,8 @@ class EnquireController extends Controller
                 'fromName' => $request->name,
                 'phone' => $request->phone,
                 'city' => $request->city,
-                'exp_yrs' => $request->exp_yrs,
-                'months' => $request->months,
+                'qualification' => $request->qualification,
+                'experience' => $request->experience,
             ];
 
             Mail::send($template, $mailData, function ($message) use ($mailData, $recipient, $subject) {
@@ -98,8 +98,8 @@ class EnquireController extends Controller
         $enquire->email = $request->input('email');
         $enquire->phone = $request->input('phone');
         $enquire->city = $request->input('city');
-        $enquire->exp_yrs = $request->input('exp_yrs');      
-        $enquire->months = $request->input('months');
+        $enquire->qualification = $request->input('qualification');      
+        $enquire->experience = $request->input('experience');
         $enquire->save();
 
         if ($request->has('brochure_download_form')) {

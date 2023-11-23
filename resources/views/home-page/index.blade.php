@@ -169,8 +169,10 @@
                                 <p style="margin-bottom: 10px;">Monday to Friday - 7.30 pm to 9.00 pm<br>
                                     Saturdays and Sundays - 2:00 pm to 5:00 pm</p>
                             </div>
-                            <p style="margin-bottom: 10px;">Programme Start Date: <strong class="hero-p">2nd December, 2023</strong></p>
-                            <p style="margin-bottom: 10px;">Application Deadline: <strong class="hero-p">25th November , 2023</strong></p>
+                            <p style="margin-bottom: 10px;">Programme Start Date: <strong class="hero-p">2nd December,
+                                    2023</strong></p>
+                            <p style="margin-bottom: 10px;">Application Deadline: <strong class="hero-p">25th November ,
+                                    2023</strong></p>
                             <p style="margin-bottom: 10px;">Course Fee: <strong class="hero-p">₹ 1,50,000 +
                                     Taxes</strong>
                             </p>
@@ -227,15 +229,27 @@
                                     <input type="text" name="city" class="form-control phone"
                                         placeholder="Enter Your City*" required>
                                 </div>
-                                <div id="input-name" class="col-md-7">
-                                    <!-- <p>Your Name*</p> -->
-                                    <input type="text" name="exp_yrs" class="form-control exp_yrs"
-                                        placeholder="Work experience in Yrs*" required>
+                                <div id="input-name" class="col-md-6">                                   
+                                    <select class="form-control" name="qualification" id="qualification">
+                                        <option disabled selected value>Qualification</option>
+                                        <option value="Postgraduate">Post Graduate</option>
+                                        <option value="Graduate">Graduate</option>
+                                        <option value="Final Year">Final Year</option>
+                                        <option value="Undergraduate">Under Graduate</option>
+                                    </select>
                                 </div>
-                                <div id="input-name" class="col-md-5">
-                                    <!-- <p>Your Name*</p> -->
-                                    <input type="text" name="months" class="form-control months" placeholder="Months*"
-                                        required>
+                                <div id="input-name" class="col-md-6">
+                                    <!-- <input type="text" name="months" class="form-control months" placeholder="Months*"
+                                        required> -->
+                                    <select class="form-control" name="experience" id="experience">
+                                        <option disabled selected value>Experience</option>
+                                        <option value="0-2 Years">Fresher</option>
+                                        <option value="2-3 Years">1 Year</option>
+                                        <option value="2-3 Years">2 Year</option>
+                                        <option value="2-3 Years">3 Year</option>
+                                        <option value="2-3 Years">4 Year</option>
+                                        <option value="5+ Years">5+ Years</option>
+                                    </select>
                                 </div>
 
                                 <!-- Form Button -->
@@ -1146,16 +1160,37 @@
                                             maxlength="255" id="email" value="" fieldtype="9" required="">
                                     </div>
                                     <div class="form-group">
-                                        <input class="form-control rounded-0" placeholder="Mobile Number*" type="number"
+                                        <input class="form-control rounded-0" placeholder="Mobile Number*" type="text"
                                             compname="PhoneNumber" name="phone" phoneformat="1"
                                             iscountrycodeenabled="true" maxlength="20" value="" fieldtype="11"
-                                            id="msctus_phone_no" required="">
+                                            id="phone_no1" required="">
+                                            <div id="error-message1" class="error-message1"></div>
                                     </div>
                                     <div class="form-group">
                                         <input class="form-control" placeholder="City Name*" type="text" name="city"
                                             value="" fieldtype="2" maxlength="255" required>
                                     </div>
                                     <div class="form-group">
+                                    <select class="form-control" name="qualification" id="qualification" required>
+                                        <option disabled selected value>Qualification*</option>
+                                        <option value="Postgraduate">Post Graduate</option>
+                                        <option value="Graduate">Graduate</option>
+                                        <option value="Final Year">Final Year</option>
+                                        <option value="Undergraduate">Under Graduate</option>
+                                    </select>
+                                    </div>
+                                    <div class="form-group">
+                                    <select class="form-control" name="experience" id="experience" required>
+                                        <option disabled selected value>Experience*</option>
+                                        <option value="0-2 Years">Fresher</option>
+                                        <option value="2-3 Years">1 Year</option>
+                                        <option value="2-3 Years">2 Year</option>
+                                        <option value="2-3 Years">3 Year</option>
+                                        <option value="2-3 Years">4 Year</option>
+                                        <option value="5+ Years">5+ Years</option>
+                                    </select>
+                                    </div>
+                                    <!-- <div class="form-group">
                                         <div class="row">
                                             <div class="col">
                                                 <input class="form-control" placeholder="Years of Work Experience*"
@@ -1166,7 +1201,7 @@
                                                     type="number" name="months" min="0" max="11" required>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> -->
                                     <div class="">
                                         <input id="pg-drop-query-fm" type="submit" value="Submit" class="form-submit">
                                     </div>
@@ -2189,9 +2224,10 @@
                                     maxlength="255" id="email" value="" fieldtype="9" required="">
                             </div>
                             <div class="form-group">
-                                <input class="form-control rounded-0" placeholder="Mobile Number*" type="number"
+                                <input class="form-control rounded-0" placeholder="Mobile Number*" type="text"
                                     compname="PhoneNumber" name="phone" phoneformat="1" iscountrycodeenabled="true"
-                                    maxlength="20" value="" fieldtype="11" id="msctus_phone_no" required="">
+                                    maxlength="20" value="" fieldtype="11" id="phone_no2" required="">
+                                            <div id="error-message2" class="error-message2"></div>
                             </div>
                             <div class="form-group">
                                 <input class="form-control" placeholder="City Name*" type="text" name="city" value=""
@@ -2200,12 +2236,24 @@
                             <div class="form-group">
                                 <div class="row">
                                     <div class="col">
-                                        <input class="form-control" placeholder="Years of Work Experience*"
-                                            type="number" name="exp_yrs" min="0" required>
+                                    <select class="form-control" name="qualification" id="qualification" required>
+                                        <option disabled selected value>Qualification*</option>
+                                        <option value="Postgraduate">Post Graduate</option>
+                                        <option value="Graduate">Graduate</option>
+                                        <option value="Final Year">Final Year</option>
+                                        <option value="Undergraduate">Under Graduate</option>
+                                    </select>
                                     </div>
                                     <div class="col">
-                                        <input class="form-control" placeholder="Months of Work Experience*"
-                                            type="number" name="months" min="0" max="11" required>
+                                    <select class="form-control" name="experience" id="experience" required>
+                                        <option disabled selected value>Experience*</option>
+                                        <option value="0-2 Years">Fresher</option>
+                                        <option value="2-3 Years">1 Year</option>
+                                        <option value="2-3 Years">2 Year</option>
+                                        <option value="2-3 Years">3 Year</option>
+                                        <option value="2-3 Years">4 Year</option>
+                                        <option value="5+ Years">5+ Years</option>
+                                    </select>
                                     </div>
                                 </div>
                             </div>
@@ -2241,7 +2289,7 @@
                     </div>
                     <div class="modal-body">
                         <form class="form-default" action="{{ route('enquires') }}" method="POST" name="form"
-                            id="mscrspgdc" accept-charset="UTF-8" enctype="multipart/form-data">
+                            id="mscrspgdce" accept-charset="UTF-8" enctype="multipart/form-data">
                             {!! csrf_field() !!}
 
                             @if (Session::has('error'))
@@ -2265,9 +2313,10 @@
                                     maxlength="255" id="email" value="" fieldtype="9" required="">
                             </div>
                             <div class="form-group">
-                                <input class="form-control rounded-0" placeholder="Mobile Number*" type="number"
+                                <input class="form-control rounded-0" placeholder="Mobile Number*" type="text"
                                     compname="PhoneNumber" name="phone" phoneformat="1" iscountrycodeenabled="true"
-                                    maxlength="20" value="" fieldtype="11" id="msctus_phone_no" required="">
+                                    maxlength="20" value="" fieldtype="11" id="phone_no3" required="">
+                                    <div id="error-message3" class="error-message3"></div>
                             </div>
                             <div class="form-group">
                                 <input class="form-control" placeholder="City Name*" type="text" name="city" value=""
@@ -2276,12 +2325,24 @@
                             <div class="form-group">
                                 <div class="row">
                                     <div class="col">
-                                        <input class="form-control" placeholder="Years of Work Experience*"
-                                            type="number" name="exp_yrs" min="0" required>
+                                    <select class="form-control" name="qualification" id="qualification" required>
+                                        <option disabled selected value>Qualification*</option>
+                                        <option value="Postgraduate">Post Graduate</option>
+                                        <option value="Graduate">Graduate</option>
+                                        <option value="Final Year">Final Year</option>
+                                        <option value="Undergraduate">Under Graduate</option>
+                                    </select>
                                     </div>
                                     <div class="col">
-                                        <input class="form-control" placeholder="Months of Work Experience*"
-                                            type="number" name="months" min="0" max="11" required>
+                                    <select class="form-control" name="experience" id="experience" required>
+                                        <option disabled selected value>Experience*</option>
+                                        <option value="0-2 Years">Fresher</option>
+                                        <option value="2-3 Years">1 Year</option>
+                                        <option value="2-3 Years">2 Year</option>
+                                        <option value="2-3 Years">3 Year</option>
+                                        <option value="2-3 Years">4 Year</option>
+                                        <option value="5+ Years">5+ Years</option>
+                                    </select>
                                     </div>
                                 </div>
                             </div>
@@ -2361,9 +2422,10 @@
                                 id="email" value="" fieldtype="9" required="">
                         </div>
                         <div class="form-group">
-                            <input class="form-control rounded-0" placeholder="Mobile Number*" type="number"
+                            <input class="form-control rounded-0" placeholder="Mobile Number*" type="text"
                                 compname="PhoneNumber" name="phone" phoneformat="1" iscountrycodeenabled="true"
-                                maxlength="20" value="" fieldtype="11" id="msctus_phone_no" required="">
+                                maxlength="20" value="" fieldtype="11" id="finlearn_phone_no" required="">
+                                <div id="error-message" class="error-message"></div>
                         </div>
                         <div class="form-group">
                             <input class="form-control" placeholder="City Name*" type="text" name="city" value=""
@@ -2372,12 +2434,24 @@
                         <div class="form-group">
                             <div class="row">
                                 <div class="col">
-                                    <input class="form-control" placeholder="Years of Work Experience*" type="number"
-                                        name="exp_yrs" min="0" required>
+                                <select class="form-control" name="qualification" id="qualification" required>
+                                        <option disabled selected value>Qualification*</option>
+                                        <option value="Postgraduate">Post Graduate</option>
+                                        <option value="Graduate">Graduate</option>
+                                        <option value="Final Year">Final Year</option>
+                                        <option value="Undergraduate">Under Graduate</option>
+                                    </select>
                                 </div>
                                 <div class="col">
-                                    <input class="form-control" placeholder="Months of Work Experience*" type="number"
-                                        name="months" min="0" max="11" required>
+                                <select class="form-control" name="experience" id="experience" required>
+                                        <option disabled selected value>Experience*</option>
+                                        <option value="0-2 Years">Fresher</option>
+                                        <option value="2-3 Years">1 Year</option>
+                                        <option value="2-3 Years">2 Year</option>
+                                        <option value="2-3 Years">3 Year</option>
+                                        <option value="2-3 Years">4 Year</option>
+                                        <option value="5+ Years">5+ Years</option>
+                                    </select>
                                 </div>
                             </div>
                         </div>
@@ -2528,6 +2602,26 @@
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NTQL2CR7" height="0" width="0"
             style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
+
+    <script>
+        function setupValidation(formId, inputId, errorMessageId) {
+            document.getElementById(inputId).addEventListener('input', function () {
+                var input = this.value;
+                var errorMessage = document.getElementById(errorMessageId);
+
+                if (!/^[0-9+]+$/.test(input) || input.length > 15) {
+                    errorMessage.textContent = 'Please enter a valid number.';
+                } else {
+                    errorMessage.textContent = '';
+                }
+            });
+        }
+
+        // Setup validation for the first form
+        setupValidation('mscontactusfm', 'phone_no1', 'error-message1');
+        setupValidation('mscrspgdc', 'phone_no2', 'error-message2');
+        setupValidation('mscrspgdce', 'phone_no3', 'error-message3');
+    </script>
 
 </body>
 
