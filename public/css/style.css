@@ -8196,5 +8196,11 @@ svg {
         border-radius: 5px;
     }
   }
+
+
+  .error-message1, .error-message2, .error-message3 {
+    color: red;
+}
+
   
 

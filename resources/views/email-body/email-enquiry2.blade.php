@@ -24,12 +24,6 @@
     Phone: +91 8104971761<br>
 Email: admissions@datagami.in
     
-    <!--    <p>Below are the details submitted from you. </p>-->
-    <!--<strong>Name:</strong> {{ $fromName }}<br>-->
-    <!--<strong>Email:</strong> {{ $fromEmail }}<br>-->
-    <!--<strong>Phone:</strong> {{ $phone }}<br>-->
-    <!--<strong>City:</strong> {{ $city }}<br>-->
-    <!--<strong>Experience:</strong> {{ $exp_yrs }} Years - {{ $months }} Months<br>-->
     
 
 </body>

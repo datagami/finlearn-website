@@ -15,8 +15,8 @@ class Enquire extends Model
         'email',
         'phone',
         'city',
-        'exp_yrs',
-        'months',
+        'qualification',
+        'experience',
         'status',
     ];
 }
