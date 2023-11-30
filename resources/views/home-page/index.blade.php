@@ -387,7 +387,7 @@
                         <div class="col text-center">
                             <div class="section-title">
                                 <!-- Title 	-->
-                                <h3 class="h3-sm">Our Alumni work at</h3>
+                                <h2 style="font-size: 2.5rem;" class="h3-sm">Our Alumni work at</h2>
                             </div>
 
                             <!-- Brands Carousel -->
@@ -479,7 +479,7 @@
                         <div class="section-title">
 
                             <!-- Title 	-->
-                            <h3 class="h3-sm">Build A Career With The Best Investment Banking Operations Program</h3>
+                            <h2 class="h3-sm" style="font-size: 2.5rem;">Build A Career With The Best Investment Banking Operations Program</h2>
 
                             <!-- Text -->
                             <p class="p-md">Our premier industry-endorsed program, the Certified Investment Banking
@@ -663,7 +663,7 @@
                     <div clas="col-lg-12">
                         <div class="fsd_joinfsd_container__C3mHJ">
                             <div class="fsd_joinfsd_heading__zXzIY">
-                                <h3>How Can I Join Investment Banking Course?</h3>
+                                <h2 style="font-size: 2.5rem;text-align:center;">How Can I Join Investment Banking Course?</h2>
                             </div>
                             <div class="fsd_desktop1__fWvnN">
                                 <div class="fsd_joinfsd_grid__IFEM_">
@@ -775,7 +775,7 @@
                     <div class="col-xl-10 offset-xl-1">
                         <div class="a4-txt">
                             <!-- Title -->
-                            <h3 class="h3-sm text-center">Why Join IBOP?</h3>
+                            <h2 class="h3-sm text-center" style="font-size: 2.5rem;">Why Join FinLEARN IBOP?</h2>
                             <br>
                             <!-- Text -->
                             <p class="text-center">If your aim is to step into the Global Finance markets, IBOP serves
@@ -940,7 +940,7 @@
                         <div class="txt-block pc-25">
 
                             <!-- Title -->
-                            <h3 class="h3-sm">Who can apply for the investment banking courses?</h3>
+                            <h2 class="h3-sm" style="font-size: 2.5rem;padding-bottom:10px;">Who can apply for the investment banking courses?</h2>
                             <!-- List -->
                             <ul class="txt-list mb-15">
                                 <li><strong>Educational Background: </strong>Ideally, a bachelor's degree in a related
@@ -1003,7 +1003,7 @@
                         <div class="list">
                             <ul>
                                 <li><strong>• Introduction to Capital Markets</strong></li>
-                                <li><strong>• Introduction to Money markets</strong></li>
+                                <li><strong>• Introduction to Money Markets</strong></li>
                                 <li><strong>• Introduction to Financial Instruments</strong></li>
                                 <li><strong>• Introduction to Derivatives</strong></li>
                             </ul>
@@ -1226,7 +1226,7 @@
                     <!-- BANNER IMAGE -->
                     <div class="col-lg-6">
                         <!-- Title -->
-                        <h3 class="h3-md text-white">Career Transition</h3>
+                        <h2 class="h3-md text-white" style="font-size: 2.5rem;">Career Transition</h2>
                         <div id="demo" class="carousel slide" data-ride="carousel"
                             style="background:#ffff; border-radius: 8px;">
 
@@ -1384,7 +1384,7 @@
                     <div class="col-md-12">
                         <div class="section-title">
                             <!-- Title 	-->
-                            <h3 class="h3-sm">Career Services</h3>
+                            <h2 class="h3-sm" style="font-size: 2.5rem;">Career Services</h2>
                         </div>
                     </div>
                     <div class="row justify-content-center">
@@ -1547,7 +1547,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="section-title mb-40">
-                            <h3 class="h3-sm">Importance of CISI Certificate</h3>
+                            <h2 class="h3-sm" style="font-size: 2.5rem;padding-bottom:10px;">Importance of CISI Certificate</h2>
                             <!-- Text -->
                             <p class="p-md">The CISI (Chartered Institute for Securities & Investment) certificate, a
                                 cornerstone of the Investment Banking Operations Program, holds immense significance in
@@ -1653,7 +1653,7 @@
                     <div class="col-md-12">
                         <div class="section-title text-center">
                             <!-- Title 	-->
-                            <h3 class="h3-sm">What can I become?</h3>
+                            <h2 class="h3-sm" style="font-size: 2.5rem;">What can I become?</h2>
                         </div>
                     </div>
                 </div>
@@ -1731,7 +1731,7 @@
                         <div class="services-6-txt">
 
                             <!-- Title -->
-                            <h3 class="h3-md">Why FinLearn</h3>
+                            <h2 class="h3-md" style="font-size: 2.5rem;padding-bottom:10px;">Why FinLearn</h2>
 
                             <!-- Text -->
                             <p class="p-md">Our primary goal is to provide you with a comprehensive learning journey.
@@ -1819,7 +1819,7 @@
                             <div class="video-txt">
 
                                 <!-- Title -->
-                                <h3>Will I Get Certified?</h3><br>
+                                <h2 style="font-size: 2.5rem;">Will I Get Certified?</h2><br>
                                 <p>Upon finishing our Certified Investment Banking Operations Professional Program,
                                     you'll attain both the esteemed FinLearn certificate and the highly valued CISI
                                     certificate. The CISI certification, in particular, holds paramount significance,
@@ -1879,17 +1879,15 @@
 
                 <!-- SECTION TITLE -->
                 <div class="row">
-                    <div class="col-md-12">
-                        <div class="section-title mb-60">
+                    <div class="col-md-12">                 
 
                             <!-- Title 	-->
-                            <h3 class="h3-sm">What Our Students Say</h3>
+                            <h2 class="h3-sm" style="font-size: 2.5rem; padding-bottom:10px;">What Students Have To Say About Our Investment Banking Course</h2>
 
                             <!-- Text -->
                             <!-- <p class="p-md">Aliquam a augue suscipit, luctus neque purus ipsum neque dolor primis libero
                                 tempus, blandit posuere and ligula varius magna a porta
-                            </p> -->
-                        </div>
+                            </p> -->                      
                     </div>
                 </div>
 
@@ -1994,7 +1992,7 @@
             <div class="container">
                 <div class="section-title">
                     <!-- Title 	-->
-                    <h3 class="h3-sm">Investment Banking Course <b>FAQs</b></h3>
+                    <h2 class="h3-sm" style="font-size: 2.5rem;">Investment Banking Course <b>FAQs</b></h2>
                 </div>
                 <div class="row">
                     <div class="col-lg-10">
