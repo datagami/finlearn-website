@@ -163,7 +163,8 @@
                             <!-- Title -->
                             <h1><span>INVESTMENT BANKING OPERATIONS PROGRAM</span></h1>
                             <br>
-                            <h4><span class="color-yellow">100% Job Assured Program </span></h4><br>
+                           <h4 class="color-yellow">Build Your Career with Our 100% Job Assurance Investment Banking Course</h4>
+                           <br>
                             <h5>Class Timings:</h5>
                             <div class="course-detail">
                                 <p style="margin-bottom: 10px;">Monday to Friday - 7.30 pm to 9.00 pm<br>
@@ -386,7 +387,7 @@
                         <div class="col text-center">
                             <div class="section-title">
                                 <!-- Title 	-->
-                                <h3 class="h3-sm">Our Alumni work at</h3>
+                                <h2 class="h2-sm">Our Alumni work at</h2>
                             </div>
 
                             <!-- Brands Carousel -->
@@ -478,7 +479,7 @@
                         <div class="section-title">
 
                             <!-- Title 	-->
-                            <h3 class="h3-sm">Build A Career With The Best Investment Banking Operations Program</h3>
+                            <h2 class="h2-sm">Build A Career With The Best Investment Banking Operations Program</h2>
 
                             <!-- Text -->
                             <p class="p-md">Our premier industry-endorsed program, the Certified Investment Banking
@@ -511,9 +512,9 @@
                             <!-- List -->
                             <div class="c4-box-txt">
                                 <h5 class="h5-md">100% Job Assurance</h5>
-                                <p>Our program includes a job assurance feature that secures you ten guaranteed
+                                <p>Our investment banking course program includes a job assurance feature that secures you ten guaranteed
                                     interviews with more than 100+ prestigious partner organizations seeking to hire
-                                    professionals in the field of investment banking.s</p>
+                                    professionals in the field of investment banking.</p>
                             </div>
 
                         </div>
@@ -662,7 +663,7 @@
                     <div clas="col-lg-12">
                         <div class="fsd_joinfsd_container__C3mHJ">
                             <div class="fsd_joinfsd_heading__zXzIY">
-                                <h3>How Can I Join Investment Banking?</h3>
+                                <h2 class="h2-sm">How Can I Join Investment Banking Course?</h2>
                             </div>
                             <div class="fsd_desktop1__fWvnN">
                                 <div class="fsd_joinfsd_grid__IFEM_">
@@ -774,12 +775,12 @@
                     <div class="col-xl-10 offset-xl-1">
                         <div class="a4-txt">
                             <!-- Title -->
-                            <h3 class="h3-sm text-center">Why Join IBOP?</h3>
+                            <h2 class="h2-sm text-center">Why Join FinLEARN IBOP?</h2>
                             <br>
                             <!-- Text -->
                             <p class="text-center">If your aim is to step into the Global Finance markets, IBOP serves
                                 as the gateway you seek. We provide CISI certification, recognized by over 70 regulators
-                                worldwide. Our programs facilitate skill enhancement tailored to industry demands. The
+                                worldwide. Our investment banking course program facilitate skill enhancement tailored to industry demands. The
                                 Investment Banking operations courses focus on Global investments, Global Operations,
                                 and Operational Risks. They enable a shift from a localized perspective to a
                                 comprehensive global outlook.
@@ -939,7 +940,7 @@
                         <div class="txt-block pc-25">
 
                             <!-- Title -->
-                            <h3 class="h3-sm">Who can apply for the investment banking courses?</h3>
+                            <h2 class="h2-sm">Who can apply for the investment banking courses?</h2>
                             <!-- List -->
                             <ul class="txt-list mb-15">
                                 <li><strong>Educational Background: </strong>Ideally, a bachelor's degree in a related
@@ -975,7 +976,7 @@
                 <div class="row align-items-center">
                     <div class="col-lg-8">
                         <div class="master-curriculum-head-section">
-                            <h2><b>Curriculum</b></h2>
+                            <h2 class="h2-sm">Curriculum</h2>
                             <div class="master-curriculum-head-content">
 
                                 <a rel="noreferrer nofollow" target="_blank" href="javascript:void(0);"
@@ -1001,8 +1002,8 @@
                     <div class="col-lg-8">
                         <div class="list">
                             <ul>
-                                <li><strong>• Introduction to capital markets</strong></li>
-                                <li><strong>• Introduction to Money markets</strong></li>
+                                <li><strong>• Introduction to Capital Markets</strong></li>
+                                <li><strong>• Introduction to Money Markets</strong></li>
                                 <li><strong>• Introduction to Financial Instruments</strong></li>
                                 <li><strong>• Introduction to Derivatives</strong></li>
                             </ul>
@@ -1225,7 +1226,7 @@
                     <!-- BANNER IMAGE -->
                     <div class="col-lg-6">
                         <!-- Title -->
-                        <h3 class="h3-md text-white">Career Transition</h3>
+                        <h2 class="h2-sm text-white">Career Transition</h2>
                         <div id="demo" class="carousel slide" data-ride="carousel"
                             style="background:#ffff; border-radius: 8px;">
 
@@ -1365,7 +1366,7 @@
                                     <img src="{{ asset('./images/icons/up-lifting-icon.png') }}" alt="up-lifting-icon"
                                         height="30px" width="30px">
                                 </div>
-                                <p><b>10000+</b> Successful Transitions in Past</p>
+                                <p><b>10,000+</b> Successful Transitions in Past</p>
                             </div>
 
                         </div>
@@ -1383,7 +1384,7 @@
                     <div class="col-md-12">
                         <div class="section-title">
                             <!-- Title 	-->
-                            <h3 class="h3-sm">Career Services</h3>
+                            <h2 class="h2-sm">Career Services</h2>
                         </div>
                     </div>
                     <div class="row justify-content-center">
@@ -1546,7 +1547,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="section-title mb-40">
-                            <h3 class="h3-sm">Importance of CISI</h3>
+                            <h2 class="h2-sm">Importance of CISI Certificate</h2>
                             <!-- Text -->
                             <p class="p-md">The CISI (Chartered Institute for Securities & Investment) certificate, a
                                 cornerstone of the Investment Banking Operations Program, holds immense significance in
@@ -1652,7 +1653,7 @@
                     <div class="col-md-12">
                         <div class="section-title text-center">
                             <!-- Title 	-->
-                            <h3 class="h3-sm">What can I become?</h3>
+                            <h2 class="h2-sm">What can I become?</h2>
                         </div>
                     </div>
                 </div>
@@ -1730,7 +1731,7 @@
                         <div class="services-6-txt">
 
                             <!-- Title -->
-                            <h3 class="h3-md">Why FinLearn</h3>
+                            <h2 class="h2-sm">Why FinLearn</h2>
 
                             <!-- Text -->
                             <p class="p-md">Our primary goal is to provide you with a comprehensive learning journey.
@@ -1818,7 +1819,7 @@
                             <div class="video-txt">
 
                                 <!-- Title -->
-                                <h3>Will I Get Certified?</h3><br>
+                                <h2 class="h2-sm">Will I Get Certified?</h2><br>
                                 <p>Upon finishing our Certified Investment Banking Operations Professional Program,
                                     you'll attain both the esteemed FinLearn certificate and the highly valued CISI
                                     certificate. The CISI certification, in particular, holds paramount significance,
@@ -1878,17 +1879,15 @@
 
                 <!-- SECTION TITLE -->
                 <div class="row">
-                    <div class="col-md-12">
-                        <div class="section-title mb-60">
+                    <div class="col-md-12">                 
 
                             <!-- Title 	-->
-                            <h3 class="h3-sm">What Our Students Say</h3>
+                            <h2 class="h2-sm">What Students Have To Say About Our Investment Banking Course</h2>
 
                             <!-- Text -->
                             <!-- <p class="p-md">Aliquam a augue suscipit, luctus neque purus ipsum neque dolor primis libero
                                 tempus, blandit posuere and ligula varius magna a porta
-                            </p> -->
-                        </div>
+                            </p> -->                      
                     </div>
                 </div>
 
@@ -1993,7 +1992,7 @@
             <div class="container">
                 <div class="section-title">
                     <!-- Title 	-->
-                    <h3 class="h3-sm">Investment Banking Course <b>FAQs</b></h3>
+                    <h2 class="h2-sm">Investment Banking Course <b>FAQs</b></h2>
                 </div>
                 <div class="row">
                     <div class="col-lg-10">
@@ -2577,7 +2576,7 @@
 		============================================= -->
     <script src="{{ asset('js/jquery-3.3.1.min.js') }}"></script>
     <script src="{{ asset('js/bootstrap.min.js') }}"></script>
-    <script src="{{ asset('js/close-alert.js') }}"></script>
+    <!-- <script src="{{ asset('js/close-alert.js') }}"></script> -->
     <script src="{{ asset('js/modernizr.custom.js') }}"></script>
     <script src="{{ asset('js/jquery.easing.js') }}"></script>
     <script src="{{ asset('js/jquery.appear.js') }}"></script>
