@@ -19,8 +19,8 @@ return new class extends Migration
             $table->string('phone');
             $table->string('email');
             $table->string('city');
-            $table->string('exp_yrs');
-            $table->string('months');
+            $table->string('qualification');
+            $table->string('experience');
             $table->integer('status')->default(1);
             $table->timestamps();
         });

@@ -163,14 +163,17 @@
                             <!-- Title -->
                             <h1><span>INVESTMENT BANKING OPERATIONS PROGRAM</span></h1>
                             <br>
-                            <h4><span class="color-yellow">100% Job Assured Program </span></h4><br>
+                           <h4 class="color-yellow">Build Your Career with Our 100% Job Assurance Investment Banking Course</h4>
+                           <br>
                             <h5>Class Timings:</h5>
                             <div class="course-detail">
                                 <p style="margin-bottom: 10px;">Monday to Friday - 7.30 pm to 9.00 pm<br>
                                     Saturdays and Sundays - 2:00 pm to 5:00 pm</p>
                             </div>
-                            <p style="margin-bottom: 10px;">Programme Start Date: <strong class="hero-p">2nd December, 2023</strong></p>
-                            <p style="margin-bottom: 10px;">Application Deadline: <strong class="hero-p">25th November , 2023</strong></p>
+                            <p style="margin-bottom: 10px;">Programme Start Date: <strong class="hero-p">2nd December,
+                                    2023</strong></p>
+                            <p style="margin-bottom: 10px;">Application Deadline: <strong class="hero-p">25th November ,
+                                    2023</strong></p>
                             <p style="margin-bottom: 10px;">Course Fee: <strong class="hero-p">₹ 1,50,000 +
                                     Taxes</strong>
                             </p>
@@ -227,15 +230,27 @@
                                     <input type="text" name="city" class="form-control phone"
                                         placeholder="Enter Your City*" required>
                                 </div>
-                                <div id="input-name" class="col-md-7">
-                                    <!-- <p>Your Name*</p> -->
-                                    <input type="text" name="exp_yrs" class="form-control exp_yrs"
-                                        placeholder="Work experience in Yrs*" required>
+                                <div id="input-name" class="col-md-6">                                   
+                                    <select class="form-control" name="qualification" id="qualification">
+                                        <option disabled selected value>Qualification</option>
+                                        <option value="Postgraduate">Post Graduate</option>
+                                        <option value="Graduate">Graduate</option>
+                                        <option value="Final Year">Final Year</option>
+                                        <option value="Undergraduate">Under Graduate</option>
+                                    </select>
                                 </div>
-                                <div id="input-name" class="col-md-5">
-                                    <!-- <p>Your Name*</p> -->
-                                    <input type="text" name="months" class="form-control months" placeholder="Months*"
-                                        required>
+                                <div id="input-name" class="col-md-6">
+                                    <!-- <input type="text" name="months" class="form-control months" placeholder="Months*"
+                                        required> -->
+                                    <select class="form-control" name="experience" id="experience">
+                                        <option disabled selected value>Experience</option>
+                                        <option value="0-2 Years">Fresher</option>
+                                        <option value="2-3 Years">1 Year</option>
+                                        <option value="2-3 Years">2 Year</option>
+                                        <option value="2-3 Years">3 Year</option>
+                                        <option value="2-3 Years">4 Year</option>
+                                        <option value="5+ Years">5+ Years</option>
+                                    </select>
                                 </div>
 
                                 <!-- Form Button -->
@@ -372,7 +387,7 @@
                         <div class="col text-center">
                             <div class="section-title">
                                 <!-- Title 	-->
-                                <h3 class="h3-sm">Our Alumni work at</h3>
+                                <h2 class="h2-sm">Our Alumni work at</h2>
                             </div>
 
                             <!-- Brands Carousel -->
@@ -464,7 +479,7 @@
                         <div class="section-title">
 
                             <!-- Title 	-->
-                            <h3 class="h3-sm">Build A Career With The Best Investment Banking Operations Program</h3>
+                            <h2 class="h2-sm">Build A Career With The Best Investment Banking Operations Program</h2>
 
                             <!-- Text -->
                             <p class="p-md">Our premier industry-endorsed program, the Certified Investment Banking
@@ -497,9 +512,9 @@
                             <!-- List -->
                             <div class="c4-box-txt">
                                 <h5 class="h5-md">100% Job Assurance</h5>
-                                <p>Our program includes a job assurance feature that secures you ten guaranteed
+                                <p>Our investment banking course program includes a job assurance feature that secures you ten guaranteed
                                     interviews with more than 100+ prestigious partner organizations seeking to hire
-                                    professionals in the field of investment banking.s</p>
+                                    professionals in the field of investment banking.</p>
                             </div>
 
                         </div>
@@ -648,7 +663,7 @@
                     <div clas="col-lg-12">
                         <div class="fsd_joinfsd_container__C3mHJ">
                             <div class="fsd_joinfsd_heading__zXzIY">
-                                <h3>How Can I Join Investment Banking?</h3>
+                                <h2 class="h2-sm">How Can I Join Investment Banking Course?</h2>
                             </div>
                             <div class="fsd_desktop1__fWvnN">
                                 <div class="fsd_joinfsd_grid__IFEM_">
@@ -760,12 +775,12 @@
                     <div class="col-xl-10 offset-xl-1">
                         <div class="a4-txt">
                             <!-- Title -->
-                            <h3 class="h3-sm text-center">Why Join IBOP?</h3>
+                            <h2 class="h2-sm text-center">Why Join FinLEARN IBOP?</h2>
                             <br>
                             <!-- Text -->
                             <p class="text-center">If your aim is to step into the Global Finance markets, IBOP serves
                                 as the gateway you seek. We provide CISI certification, recognized by over 70 regulators
-                                worldwide. Our programs facilitate skill enhancement tailored to industry demands. The
+                                worldwide. Our investment banking course program facilitate skill enhancement tailored to industry demands. The
                                 Investment Banking operations courses focus on Global investments, Global Operations,
                                 and Operational Risks. They enable a shift from a localized perspective to a
                                 comprehensive global outlook.
@@ -925,7 +940,7 @@
                         <div class="txt-block pc-25">
 
                             <!-- Title -->
-                            <h3 class="h3-sm">Who can apply for the investment banking courses?</h3>
+                            <h2 class="h2-sm">Who can apply for the investment banking courses?</h2>
                             <!-- List -->
                             <ul class="txt-list mb-15">
                                 <li><strong>Educational Background: </strong>Ideally, a bachelor's degree in a related
@@ -961,7 +976,7 @@
                 <div class="row align-items-center">
                     <div class="col-lg-8">
                         <div class="master-curriculum-head-section">
-                            <h2><b>Curriculum</b></h2>
+                            <h2 class="h2-sm">Curriculum</h2>
                             <div class="master-curriculum-head-content">
 
                                 <a rel="noreferrer nofollow" target="_blank" href="javascript:void(0);"
@@ -987,8 +1002,8 @@
                     <div class="col-lg-8">
                         <div class="list">
                             <ul>
-                                <li><strong>• Introduction to capital markets</strong></li>
-                                <li><strong>• Introduction to Money markets</strong></li>
+                                <li><strong>• Introduction to Capital Markets</strong></li>
+                                <li><strong>• Introduction to Money Markets</strong></li>
                                 <li><strong>• Introduction to Financial Instruments</strong></li>
                                 <li><strong>• Introduction to Derivatives</strong></li>
                             </ul>
@@ -1146,16 +1161,37 @@
                                             maxlength="255" id="email" value="" fieldtype="9" required="">
                                     </div>
                                     <div class="form-group">
-                                        <input class="form-control rounded-0" placeholder="Mobile Number*" type="number"
+                                        <input class="form-control rounded-0" placeholder="Mobile Number*" type="text"
                                             compname="PhoneNumber" name="phone" phoneformat="1"
                                             iscountrycodeenabled="true" maxlength="20" value="" fieldtype="11"
-                                            id="msctus_phone_no" required="">
+                                            id="phone_no1" required="">
+                                            <div id="error-message1" class="error-message1"></div>
                                     </div>
                                     <div class="form-group">
                                         <input class="form-control" placeholder="City Name*" type="text" name="city"
                                             value="" fieldtype="2" maxlength="255" required>
                                     </div>
                                     <div class="form-group">
+                                    <select class="form-control" name="qualification" id="qualification" required>
+                                        <option disabled selected value>Qualification*</option>
+                                        <option value="Postgraduate">Post Graduate</option>
+                                        <option value="Graduate">Graduate</option>
+                                        <option value="Final Year">Final Year</option>
+                                        <option value="Undergraduate">Under Graduate</option>
+                                    </select>
+                                    </div>
+                                    <div class="form-group">
+                                    <select class="form-control" name="experience" id="experience" required>
+                                        <option disabled selected value>Experience*</option>
+                                        <option value="0-2 Years">Fresher</option>
+                                        <option value="2-3 Years">1 Year</option>
+                                        <option value="2-3 Years">2 Year</option>
+                                        <option value="2-3 Years">3 Year</option>
+                                        <option value="2-3 Years">4 Year</option>
+                                        <option value="5+ Years">5+ Years</option>
+                                    </select>
+                                    </div>
+                                    <!-- <div class="form-group">
                                         <div class="row">
                                             <div class="col">
                                                 <input class="form-control" placeholder="Years of Work Experience*"
@@ -1166,7 +1202,7 @@
                                                     type="number" name="months" min="0" max="11" required>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> -->
                                     <div class="">
                                         <input id="pg-drop-query-fm" type="submit" value="Submit" class="form-submit">
                                     </div>
@@ -1190,7 +1226,7 @@
                     <!-- BANNER IMAGE -->
                     <div class="col-lg-6">
                         <!-- Title -->
-                        <h3 class="h3-md text-white">Career Transition</h3>
+                        <h2 class="h2-sm text-white">Career Transition</h2>
                         <div id="demo" class="carousel slide" data-ride="carousel"
                             style="background:#ffff; border-radius: 8px;">
 
@@ -1330,7 +1366,7 @@
                                     <img src="{{ asset('./images/icons/up-lifting-icon.png') }}" alt="up-lifting-icon"
                                         height="30px" width="30px">
                                 </div>
-                                <p><b>10000+</b> Successful Transitions in Past</p>
+                                <p><b>10,000+</b> Successful Transitions in Past</p>
                             </div>
 
                         </div>
@@ -1348,7 +1384,7 @@
                     <div class="col-md-12">
                         <div class="section-title">
                             <!-- Title 	-->
-                            <h3 class="h3-sm">Career Services</h3>
+                            <h2 class="h2-sm">Career Services</h2>
                         </div>
                     </div>
                     <div class="row justify-content-center">
@@ -1511,7 +1547,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="section-title mb-40">
-                            <h3 class="h3-sm">Importance of CISI</h3>
+                            <h2 class="h2-sm">Importance of CISI Certificate</h2>
                             <!-- Text -->
                             <p class="p-md">The CISI (Chartered Institute for Securities & Investment) certificate, a
                                 cornerstone of the Investment Banking Operations Program, holds immense significance in
@@ -1617,7 +1653,7 @@
                     <div class="col-md-12">
                         <div class="section-title text-center">
                             <!-- Title 	-->
-                            <h3 class="h3-sm">What can I become?</h3>
+                            <h2 class="h2-sm">What can I become?</h2>
                         </div>
                     </div>
                 </div>
@@ -1695,7 +1731,7 @@
                         <div class="services-6-txt">
 
                             <!-- Title -->
-                            <h3 class="h3-md">Why FinLearn</h3>
+                            <h2 class="h2-sm">Why FinLearn</h2>
 
                             <!-- Text -->
                             <p class="p-md">Our primary goal is to provide you with a comprehensive learning journey.
@@ -1783,7 +1819,7 @@
                             <div class="video-txt">
 
                                 <!-- Title -->
-                                <h3>Will I Get Certified?</h3><br>
+                                <h2 class="h2-sm">Will I Get Certified?</h2><br>
                                 <p>Upon finishing our Certified Investment Banking Operations Professional Program,
                                     you'll attain both the esteemed FinLearn certificate and the highly valued CISI
                                     certificate. The CISI certification, in particular, holds paramount significance,
@@ -1843,17 +1879,15 @@
 
                 <!-- SECTION TITLE -->
                 <div class="row">
-                    <div class="col-md-12">
-                        <div class="section-title mb-60">
+                    <div class="col-md-12">                 
 
                             <!-- Title 	-->
-                            <h3 class="h3-sm">What Our Students Say</h3>
+                            <h2 class="h2-sm">What Students Have To Say About Our Investment Banking Course</h2>
 
                             <!-- Text -->
                             <!-- <p class="p-md">Aliquam a augue suscipit, luctus neque purus ipsum neque dolor primis libero
                                 tempus, blandit posuere and ligula varius magna a porta
-                            </p> -->
-                        </div>
+                            </p> -->                      
                     </div>
                 </div>
 
@@ -1958,7 +1992,7 @@
             <div class="container">
                 <div class="section-title">
                     <!-- Title 	-->
-                    <h3 class="h3-sm">Investment Banking Course <b>FAQs</b></h3>
+                    <h2 class="h2-sm">Investment Banking Course <b>FAQs</b></h2>
                 </div>
                 <div class="row">
                     <div class="col-lg-10">
@@ -2189,9 +2223,10 @@
                                     maxlength="255" id="email" value="" fieldtype="9" required="">
                             </div>
                             <div class="form-group">
-                                <input class="form-control rounded-0" placeholder="Mobile Number*" type="number"
+                                <input class="form-control rounded-0" placeholder="Mobile Number*" type="text"
                                     compname="PhoneNumber" name="phone" phoneformat="1" iscountrycodeenabled="true"
-                                    maxlength="20" value="" fieldtype="11" id="msctus_phone_no" required="">
+                                    maxlength="20" value="" fieldtype="11" id="phone_no2" required="">
+                                            <div id="error-message2" class="error-message2"></div>
                             </div>
                             <div class="form-group">
                                 <input class="form-control" placeholder="City Name*" type="text" name="city" value=""
@@ -2200,12 +2235,24 @@
                             <div class="form-group">
                                 <div class="row">
                                     <div class="col">
-                                        <input class="form-control" placeholder="Years of Work Experience*"
-                                            type="number" name="exp_yrs" min="0" required>
+                                    <select class="form-control" name="qualification" id="qualification" required>
+                                        <option disabled selected value>Qualification*</option>
+                                        <option value="Postgraduate">Post Graduate</option>
+                                        <option value="Graduate">Graduate</option>
+                                        <option value="Final Year">Final Year</option>
+                                        <option value="Undergraduate">Under Graduate</option>
+                                    </select>
                                     </div>
                                     <div class="col">
-                                        <input class="form-control" placeholder="Months of Work Experience*"
-                                            type="number" name="months" min="0" max="11" required>
+                                    <select class="form-control" name="experience" id="experience" required>
+                                        <option disabled selected value>Experience*</option>
+                                        <option value="0-2 Years">Fresher</option>
+                                        <option value="2-3 Years">1 Year</option>
+                                        <option value="2-3 Years">2 Year</option>
+                                        <option value="2-3 Years">3 Year</option>
+                                        <option value="2-3 Years">4 Year</option>
+                                        <option value="5+ Years">5+ Years</option>
+                                    </select>
                                     </div>
                                 </div>
                             </div>
@@ -2241,7 +2288,7 @@
                     </div>
                     <div class="modal-body">
                         <form class="form-default" action="{{ route('enquires') }}" method="POST" name="form"
-                            id="mscrspgdc" accept-charset="UTF-8" enctype="multipart/form-data">
+                            id="mscrspgdce" accept-charset="UTF-8" enctype="multipart/form-data">
                             {!! csrf_field() !!}
 
                             @if (Session::has('error'))
@@ -2265,9 +2312,10 @@
                                     maxlength="255" id="email" value="" fieldtype="9" required="">
                             </div>
                             <div class="form-group">
-                                <input class="form-control rounded-0" placeholder="Mobile Number*" type="number"
+                                <input class="form-control rounded-0" placeholder="Mobile Number*" type="text"
                                     compname="PhoneNumber" name="phone" phoneformat="1" iscountrycodeenabled="true"
-                                    maxlength="20" value="" fieldtype="11" id="msctus_phone_no" required="">
+                                    maxlength="20" value="" fieldtype="11" id="phone_no3" required="">
+                                    <div id="error-message3" class="error-message3"></div>
                             </div>
                             <div class="form-group">
                                 <input class="form-control" placeholder="City Name*" type="text" name="city" value=""
@@ -2276,12 +2324,24 @@
                             <div class="form-group">
                                 <div class="row">
                                     <div class="col">
-                                        <input class="form-control" placeholder="Years of Work Experience*"
-                                            type="number" name="exp_yrs" min="0" required>
+                                    <select class="form-control" name="qualification" id="qualification" required>
+                                        <option disabled selected value>Qualification*</option>
+                                        <option value="Postgraduate">Post Graduate</option>
+                                        <option value="Graduate">Graduate</option>
+                                        <option value="Final Year">Final Year</option>
+                                        <option value="Undergraduate">Under Graduate</option>
+                                    </select>
                                     </div>
                                     <div class="col">
-                                        <input class="form-control" placeholder="Months of Work Experience*"
-                                            type="number" name="months" min="0" max="11" required>
+                                    <select class="form-control" name="experience" id="experience" required>
+                                        <option disabled selected value>Experience*</option>
+                                        <option value="0-2 Years">Fresher</option>
+                                        <option value="2-3 Years">1 Year</option>
+                                        <option value="2-3 Years">2 Year</option>
+                                        <option value="2-3 Years">3 Year</option>
+                                        <option value="2-3 Years">4 Year</option>
+                                        <option value="5+ Years">5+ Years</option>
+                                    </select>
                                     </div>
                                 </div>
                             </div>
@@ -2361,9 +2421,10 @@
                                 id="email" value="" fieldtype="9" required="">
                         </div>
                         <div class="form-group">
-                            <input class="form-control rounded-0" placeholder="Mobile Number*" type="number"
+                            <input class="form-control rounded-0" placeholder="Mobile Number*" type="text"
                                 compname="PhoneNumber" name="phone" phoneformat="1" iscountrycodeenabled="true"
-                                maxlength="20" value="" fieldtype="11" id="msctus_phone_no" required="">
+                                maxlength="20" value="" fieldtype="11" id="finlearn_phone_no" required="">
+                                <div id="error-message" class="error-message"></div>
                         </div>
                         <div class="form-group">
                             <input class="form-control" placeholder="City Name*" type="text" name="city" value=""
@@ -2372,12 +2433,24 @@
                         <div class="form-group">
                             <div class="row">
                                 <div class="col">
-                                    <input class="form-control" placeholder="Years of Work Experience*" type="number"
-                                        name="exp_yrs" min="0" required>
+                                <select class="form-control" name="qualification" id="qualification" required>
+                                        <option disabled selected value>Qualification*</option>
+                                        <option value="Postgraduate">Post Graduate</option>
+                                        <option value="Graduate">Graduate</option>
+                                        <option value="Final Year">Final Year</option>
+                                        <option value="Undergraduate">Under Graduate</option>
+                                    </select>
                                 </div>
                                 <div class="col">
-                                    <input class="form-control" placeholder="Months of Work Experience*" type="number"
-                                        name="months" min="0" max="11" required>
+                                <select class="form-control" name="experience" id="experience" required>
+                                        <option disabled selected value>Experience*</option>
+                                        <option value="0-2 Years">Fresher</option>
+                                        <option value="2-3 Years">1 Year</option>
+                                        <option value="2-3 Years">2 Year</option>
+                                        <option value="2-3 Years">3 Year</option>
+                                        <option value="2-3 Years">4 Year</option>
+                                        <option value="5+ Years">5+ Years</option>
+                                    </select>
                                 </div>
                             </div>
                         </div>
@@ -2503,7 +2576,7 @@
 		============================================= -->
     <script src="{{ asset('js/jquery-3.3.1.min.js') }}"></script>
     <script src="{{ asset('js/bootstrap.min.js') }}"></script>
-    <script src="{{ asset('js/close-alert.js') }}"></script>
+    <!-- <script src="{{ asset('js/close-alert.js') }}"></script> -->
     <script src="{{ asset('js/modernizr.custom.js') }}"></script>
     <script src="{{ asset('js/jquery.easing.js') }}"></script>
     <script src="{{ asset('js/jquery.appear.js') }}"></script>
@@ -2528,6 +2601,26 @@
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NTQL2CR7" height="0" width="0"
             style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
+
+    <script>
+        function setupValidation(formId, inputId, errorMessageId) {
+            document.getElementById(inputId).addEventListener('input', function () {
+                var input = this.value;
+                var errorMessage = document.getElementById(errorMessageId);
+
+                if (!/^[0-9+]+$/.test(input) || input.length > 15) {
+                    errorMessage.textContent = 'Please enter a valid number.';
+                } else {
+                    errorMessage.textContent = '';
+                }
+            });
+        }
+
+        // Setup validation for the first form
+        setupValidation('mscontactusfm', 'phone_no1', 'error-message1');
+        setupValidation('mscrspgdc', 'phone_no2', 'error-message2');
+        setupValidation('mscrspgdce', 'phone_no3', 'error-message3');
+    </script>
 
 </body>
 

@@ -33,9 +33,14 @@
                                     <td>{{ $enquire->city }}</td>
                                 </tr>
                                 <tr>
+                                    <td>Qualification:</td>
+
+                                    <td>{{ $enquire->qualification }}</td>
+                                </tr>
+                                <tr>
                                     <td>Experience:</td>
 
-                                    <td>{{ $enquire->exp_yrs .' Years - '. $enquire->months. ' Months' }}</td>
+                                    <td>{{ $enquire->experience }}</td>
                                 </tr>
                             </tbody>
                         </table>
