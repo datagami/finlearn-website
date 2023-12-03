@@ -79,3 +79,8 @@ use Carbon\Carbon;
 DB::table('users')->insert(['name'=>'<Name>' ,'email'=>'<email>','password'=>Hash::make('qwerty@123'), 'created_at'=>Carbon::now(), 'updated_at'=>Carbon::now()])
 ```
 
+## How to take data backup
+```
+php artisan tinker --execute="\Illuminate\Support\Facades\DB::table('enquires')->get()->each(function(\$item) { echo implode(\"\\t\", (array) \$item) . PHP_EOL; })" > enquires_data_table.txt
+```
+
