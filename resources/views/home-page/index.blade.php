@@ -163,8 +163,9 @@
                             <!-- Title -->
                             <h1><span>INVESTMENT BANKING OPERATIONS PROGRAM</span></h1>
                             <br>
-                           <h4 class="color-yellow">Build Your Career with Our 100% Job Assurance Investment Banking Course</h4>
-                           <br>
+                            <h4 class="color-yellow">Build Your Career with Our 100% Job Assurance Investment Banking
+                                Course</h4>
+                            <br>
                             <h5>Class Timings:</h5>
                             <div class="course-detail">
                                 <p style="margin-bottom: 10px;">Monday to Friday - 7.30 pm to 9.00 pm<br>
@@ -206,31 +207,33 @@
 
                                 <!-- Form Input -->
                                 <div id="input-name" class="col-md-12">
-                                    <!-- <p>Your Name*</p> -->
                                     <input type="text" name="name" class="form-control name"
                                         placeholder="Enter Your Name*" required>
                                 </div>
 
                                 <!-- Form Input -->
                                 <div id="input-email" class="col-md-12">
-                                    <!-- <p>Your Email*</p> -->
                                     <input type="email" name="email" class="form-control email"
                                         placeholder="Enter Your Email*" required>
                                 </div>
 
                                 <!-- Form Input -->
                                 <div id="input-phone" class="col-md-12">
-                                    <!-- <p>Your Phone Number*</p> -->
-                                    <input type="tel" name="phone" class="form-control phone"
-                                        placeholder="Enter Your Phone Number*" required>
+                                    <div class="input-group mb-2">
+                                        <div class="input-group-prepend">
+                                            <div class="input-group-text">+91</div>
+                                        </div>
+                                        <input type="tel" name="phone" maxlength="10" minlength="10"
+                                            id="inlineFormInputGroup" class="form-control phone"
+                                            placeholder="Enter Your Phone Number*" required>
+                                    </div>
                                 </div>
-
                                 <!-- Form Input -->
                                 <div id="input-phone" class="col-md-12">
                                     <input type="text" name="city" class="form-control phone"
                                         placeholder="Enter Your City*" required>
                                 </div>
-                                <div id="input-name" class="col-md-6">                                   
+                                <div id="input-name" class="col-md-6">
                                     <select class="form-control" name="qualification" id="qualification">
                                         <option disabled selected value>Qualification</option>
                                         <option value="Postgraduate">Post Graduate</option>
@@ -240,8 +243,7 @@
                                     </select>
                                 </div>
                                 <div id="input-name" class="col-md-6">
-                                    <!-- <input type="text" name="months" class="form-control months" placeholder="Months*"
-                                        required> -->
+
                                     <select class="form-control" name="experience" id="experience">
                                         <option disabled selected value>Experience</option>
                                         <option value="0-2 Years">Fresher</option>
@@ -512,7 +514,8 @@
                             <!-- List -->
                             <div class="c4-box-txt">
                                 <h5 class="h5-md">100% Job Assurance</h5>
-                                <p>Our investment banking course program includes a job assurance feature that secures you ten guaranteed
+                                <p>Our investment banking course program includes a job assurance feature that secures
+                                    you ten guaranteed
                                     interviews with more than 100+ prestigious partner organizations seeking to hire
                                     professionals in the field of investment banking.</p>
                             </div>
@@ -780,7 +783,8 @@
                             <!-- Text -->
                             <p class="text-center">If your aim is to step into the Global Finance markets, IBOP serves
                                 as the gateway you seek. We provide CISI certification, recognized by over 70 regulators
-                                worldwide. Our investment banking course program facilitate skill enhancement tailored to industry demands. The
+                                worldwide. Our investment banking course program facilitate skill enhancement tailored
+                                to industry demands. The
                                 Investment Banking operations courses focus on Global investments, Global Operations,
                                 and Operational Risks. They enable a shift from a localized perspective to a
                                 comprehensive global outlook.
@@ -1160,36 +1164,47 @@
                                         <input class="form-control" placeholder="Email*" name="email" type="email"
                                             maxlength="255" id="email" value="" fieldtype="9" required="">
                                     </div>
+
                                     <div class="form-group">
-                                        <input class="form-control rounded-0" placeholder="Mobile Number*" type="text"
-                                            compname="PhoneNumber" name="phone" phoneformat="1"
-                                            iscountrycodeenabled="true" maxlength="20" value="" fieldtype="11"
-                                            id="phone_no1" required="">
-                                            <div id="error-message1" class="error-message1"></div>
+                                        <div class="row">
+                                            <div class="col-sm-12">
+                                                <div class="input-group mb-2">
+                                                    <div class="input-group-prepend" style="height: 42px;">
+                                                        <div class="input-group-text">+91</div>
+                                                    </div>
+                                                    <input class="form-control rounded-0" placeholder="Mobile Number*"
+                                                        type="text" compname="PhoneNumber" name="phone" phoneformat="1"
+                                                        iscountrycodeenabled="true" maxlength="10" minlength="10"
+                                                        value="" fieldtype="11" id="phone_no1" required="">
+                                                    <div id="error-message1" class="error-message1"></div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
+
                                     <div class="form-group">
                                         <input class="form-control" placeholder="City Name*" type="text" name="city"
                                             value="" fieldtype="2" maxlength="255" required>
                                     </div>
                                     <div class="form-group">
-                                    <select class="form-control" name="qualification" id="qualification" required>
-                                        <option disabled selected value>Qualification*</option>
-                                        <option value="Postgraduate">Post Graduate</option>
-                                        <option value="Graduate">Graduate</option>
-                                        <option value="Final Year">Final Year</option>
-                                        <option value="Undergraduate">Under Graduate</option>
-                                    </select>
+                                        <select class="form-control" name="qualification" id="qualification" required>
+                                            <option disabled selected value>Qualification*</option>
+                                            <option value="Postgraduate">Post Graduate</option>
+                                            <option value="Graduate">Graduate</option>
+                                            <option value="Final Year">Final Year</option>
+                                            <option value="Undergraduate">Under Graduate</option>
+                                        </select>
                                     </div>
                                     <div class="form-group">
-                                    <select class="form-control" name="experience" id="experience" required>
-                                        <option disabled selected value>Experience*</option>
-                                        <option value="0-2 Years">Fresher</option>
-                                        <option value="2-3 Years">1 Year</option>
-                                        <option value="2-3 Years">2 Year</option>
-                                        <option value="2-3 Years">3 Year</option>
-                                        <option value="2-3 Years">4 Year</option>
-                                        <option value="5+ Years">5+ Years</option>
-                                    </select>
+                                        <select class="form-control" name="experience" id="experience" required>
+                                            <option disabled selected value>Experience*</option>
+                                            <option value="0-2 Years">Fresher</option>
+                                            <option value="2-3 Years">1 Year</option>
+                                            <option value="2-3 Years">2 Year</option>
+                                            <option value="2-3 Years">3 Year</option>
+                                            <option value="2-3 Years">4 Year</option>
+                                            <option value="5+ Years">5+ Years</option>
+                                        </select>
                                     </div>
                                     <!-- <div class="form-group">
                                         <div class="row">
@@ -1879,15 +1894,15 @@
 
                 <!-- SECTION TITLE -->
                 <div class="row">
-                    <div class="col-md-12">                 
+                    <div class="col-md-12">
 
-                            <!-- Title 	-->
-                            <h2 class="h2-sm">What Students Have To Say About Our Investment Banking Course</h2>
+                        <!-- Title 	-->
+                        <h2 class="h2-sm">What Students Have To Say About Our Investment Banking Course</h2>
 
-                            <!-- Text -->
-                            <!-- <p class="p-md">Aliquam a augue suscipit, luctus neque purus ipsum neque dolor primis libero
+                        <!-- Text -->
+                        <!-- <p class="p-md">Aliquam a augue suscipit, luctus neque purus ipsum neque dolor primis libero
                                 tempus, blandit posuere and ligula varius magna a porta
-                            </p> -->                      
+                            </p> -->
                     </div>
                 </div>
 
@@ -2223,11 +2238,22 @@
                                     maxlength="255" id="email" value="" fieldtype="9" required="">
                             </div>
                             <div class="form-group">
-                                <input class="form-control rounded-0" placeholder="Mobile Number*" type="text"
-                                    compname="PhoneNumber" name="phone" phoneformat="1" iscountrycodeenabled="true"
-                                    maxlength="20" value="" fieldtype="11" id="phone_no2" required="">
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <div class="input-group mb-2">
+                                            <div class="input-group-prepend" style="height: 48px;">
+                                                <div class="input-group-text">+91</div>
+                                            </div>
+                                            <input class="form-control rounded-0" placeholder="Mobile Number*"
+                                                type="text" compname="PhoneNumber" name="phone" phoneformat="1"
+                                                iscountrycodeenabled="true" maxlength="10" minlength="10" value=""
+                                                fieldtype="11" id="phone_no2" required="">
                                             <div id="error-message2" class="error-message2"></div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
+
                             <div class="form-group">
                                 <input class="form-control" placeholder="City Name*" type="text" name="city" value=""
                                     fieldtype="2" maxlength="255" required>
@@ -2235,24 +2261,24 @@
                             <div class="form-group">
                                 <div class="row">
                                     <div class="col">
-                                    <select class="form-control" name="qualification" id="qualification" required>
-                                        <option disabled selected value>Qualification*</option>
-                                        <option value="Postgraduate">Post Graduate</option>
-                                        <option value="Graduate">Graduate</option>
-                                        <option value="Final Year">Final Year</option>
-                                        <option value="Undergraduate">Under Graduate</option>
-                                    </select>
+                                        <select class="form-control" name="qualification" id="qualification" required>
+                                            <option disabled selected value>Qualification*</option>
+                                            <option value="Postgraduate">Post Graduate</option>
+                                            <option value="Graduate">Graduate</option>
+                                            <option value="Final Year">Final Year</option>
+                                            <option value="Undergraduate">Under Graduate</option>
+                                        </select>
                                     </div>
                                     <div class="col">
-                                    <select class="form-control" name="experience" id="experience" required>
-                                        <option disabled selected value>Experience*</option>
-                                        <option value="0-2 Years">Fresher</option>
-                                        <option value="2-3 Years">1 Year</option>
-                                        <option value="2-3 Years">2 Year</option>
-                                        <option value="2-3 Years">3 Year</option>
-                                        <option value="2-3 Years">4 Year</option>
-                                        <option value="5+ Years">5+ Years</option>
-                                    </select>
+                                        <select class="form-control" name="experience" id="experience" required>
+                                            <option disabled selected value>Experience*</option>
+                                            <option value="0-2 Years">Fresher</option>
+                                            <option value="2-3 Years">1 Year</option>
+                                            <option value="2-3 Years">2 Year</option>
+                                            <option value="2-3 Years">3 Year</option>
+                                            <option value="2-3 Years">4 Year</option>
+                                            <option value="5+ Years">5+ Years</option>
+                                        </select>
                                     </div>
                                 </div>
                             </div>
@@ -2311,12 +2337,24 @@
                                 <input class="form-control" placeholder="Email*" name="email" type="email"
                                     maxlength="255" id="email" value="" fieldtype="9" required="">
                             </div>
+
                             <div class="form-group">
-                                <input class="form-control rounded-0" placeholder="Mobile Number*" type="text"
-                                    compname="PhoneNumber" name="phone" phoneformat="1" iscountrycodeenabled="true"
-                                    maxlength="20" value="" fieldtype="11" id="phone_no3" required="">
-                                    <div id="error-message3" class="error-message3"></div>
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <div class="input-group mb-2">
+                                            <div class="input-group-prepend" style="height: 48px;">
+                                                <div class="input-group-text">+91</div>
+                                            </div>
+                                            <input class="form-control rounded-0" placeholder="Mobile Number*"
+                                                type="text" compname="PhoneNumber" name="phone" phoneformat="1"
+                                                iscountrycodeenabled="true" maxlength="10" minlength="10" value=""
+                                                fieldtype="11" id="phone_no3" required="">
+                                            <div id="error-message3" class="error-message3"></div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
+
                             <div class="form-group">
                                 <input class="form-control" placeholder="City Name*" type="text" name="city" value=""
                                     fieldtype="2" maxlength="255" required>
@@ -2324,24 +2362,24 @@
                             <div class="form-group">
                                 <div class="row">
                                     <div class="col">
-                                    <select class="form-control" name="qualification" id="qualification" required>
-                                        <option disabled selected value>Qualification*</option>
-                                        <option value="Postgraduate">Post Graduate</option>
-                                        <option value="Graduate">Graduate</option>
-                                        <option value="Final Year">Final Year</option>
-                                        <option value="Undergraduate">Under Graduate</option>
-                                    </select>
+                                        <select class="form-control" name="qualification" id="qualification" required>
+                                            <option disabled selected value>Qualification*</option>
+                                            <option value="Postgraduate">Post Graduate</option>
+                                            <option value="Graduate">Graduate</option>
+                                            <option value="Final Year">Final Year</option>
+                                            <option value="Undergraduate">Under Graduate</option>
+                                        </select>
                                     </div>
                                     <div class="col">
-                                    <select class="form-control" name="experience" id="experience" required>
-                                        <option disabled selected value>Experience*</option>
-                                        <option value="0-2 Years">Fresher</option>
-                                        <option value="2-3 Years">1 Year</option>
-                                        <option value="2-3 Years">2 Year</option>
-                                        <option value="2-3 Years">3 Year</option>
-                                        <option value="2-3 Years">4 Year</option>
-                                        <option value="5+ Years">5+ Years</option>
-                                    </select>
+                                        <select class="form-control" name="experience" id="experience" required>
+                                            <option disabled selected value>Experience*</option>
+                                            <option value="0-2 Years">Fresher</option>
+                                            <option value="2-3 Years">1 Year</option>
+                                            <option value="2-3 Years">2 Year</option>
+                                            <option value="2-3 Years">3 Year</option>
+                                            <option value="2-3 Years">4 Year</option>
+                                            <option value="5+ Years">5+ Years</option>
+                                        </select>
                                     </div>
                                 </div>
                             </div>
@@ -2420,12 +2458,32 @@
                             <input class="form-control" placeholder="Email*" name="email" type="email" maxlength="255"
                                 id="email" value="" fieldtype="9" required="">
                         </div>
+
                         <div class="form-group">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="input-group mb-2">
+                                        <div class="input-group-prepend" style="height: 48px;">
+                                            <div class="input-group-text">+91</div>
+                                        </div>
+                                        <input class="form-control rounded-0" placeholder="Mobile Number*" type="text"
+                                            compname="PhoneNumber" name="phone" phoneformat="1"
+                                            iscountrycodeenabled="true" maxlength="10" minlength="10" value=""
+                                            fieldtype="11" id="finlearn_phone_no" required="">
+                                        <div id="error-message" class="error-message"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- <div class="form-group">
                             <input class="form-control rounded-0" placeholder="Mobile Number*" type="text"
                                 compname="PhoneNumber" name="phone" phoneformat="1" iscountrycodeenabled="true"
-                                maxlength="20" value="" fieldtype="11" id="finlearn_phone_no" required="">
-                                <div id="error-message" class="error-message"></div>
-                        </div>
+                                maxlength="10" minlength="10" value="" fieldtype="11" id="finlearn_phone_no"
+                                required="">
+                            <div id="error-message" class="error-message"></div>
+                        </div> -->
                         <div class="form-group">
                             <input class="form-control" placeholder="City Name*" type="text" name="city" value=""
                                 fieldtype="2" maxlength="255" required>
@@ -2433,7 +2491,7 @@
                         <div class="form-group">
                             <div class="row">
                                 <div class="col">
-                                <select class="form-control" name="qualification" id="qualification" required>
+                                    <select class="form-control" name="qualification" id="qualification" required>
                                         <option disabled selected value>Qualification*</option>
                                         <option value="Postgraduate">Post Graduate</option>
                                         <option value="Graduate">Graduate</option>
@@ -2442,7 +2500,7 @@
                                     </select>
                                 </div>
                                 <div class="col">
-                                <select class="form-control" name="experience" id="experience" required>
+                                    <select class="form-control" name="experience" id="experience" required>
                                         <option disabled selected value>Experience*</option>
                                         <option value="0-2 Years">Fresher</option>
                                         <option value="2-3 Years">1 Year</option>
@@ -2603,23 +2661,23 @@
     <!-- End Google Tag Manager (noscript) -->
 
     <script>
-        function setupValidation(formId, inputId, errorMessageId) {
-            document.getElementById(inputId).addEventListener('input', function () {
-                var input = this.value;
-                var errorMessage = document.getElementById(errorMessageId);
+    function setupValidation(formId, inputId, errorMessageId) {
+        document.getElementById(inputId).addEventListener('input', function() {
+            var input = this.value;
+            var errorMessage = document.getElementById(errorMessageId);
 
-                if (!/^[0-9+]+$/.test(input) || input.length > 15) {
-                    errorMessage.textContent = 'Please enter a valid number.';
-                } else {
-                    errorMessage.textContent = '';
-                }
-            });
-        }
+            if (!/^[0-9+]+$/.test(input) || input.length > 15) {
+                errorMessage.textContent = 'Please enter a valid number.';
+            } else {
+                errorMessage.textContent = '';
+            }
+        });
+    }
 
-        // Setup validation for the first form
-        setupValidation('mscontactusfm', 'phone_no1', 'error-message1');
-        setupValidation('mscrspgdc', 'phone_no2', 'error-message2');
-        setupValidation('mscrspgdce', 'phone_no3', 'error-message3');
+    // Setup validation for the first form
+    setupValidation('mscontactusfm', 'phone_no1', 'error-message1');
+    setupValidation('mscrspgdc', 'phone_no2', 'error-message2');
+    setupValidation('mscrspgdce', 'phone_no3', 'error-message3');
     </script>
 
 </body>
