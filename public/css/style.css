@@ -8214,4 +8214,13 @@ h2.h2-sm {
       } 
 }
 
+.input-group-prepend {
+    height: 52px;
+}
+@media screen and (max-width: 768px) {
+    .input-group-prepend {
+        height: 50px;
+    }
+}
+
 
