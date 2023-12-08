@@ -163,8 +163,8 @@
                             <!-- Title -->
                             <h1><span>INVESTMENT BANKING OPERATIONS PROGRAM</span></h1>
                             <br>
-                            <h4 class="color-yellow">Build Your Career with Our 100% Job Assurance Investment Banking
-                                Course</h4>
+                            <h2 class="color-yellow h-size">Build Your Career with Our 100% Job Assurance <strong>Investment Banking
+                                Course</strong></h2>
                             <br>
                             <h5>Class Timings:</h5>
                             <div class="course-detail">
@@ -2666,7 +2666,7 @@
             var input = this.value;
             var errorMessage = document.getElementById(errorMessageId);
 
-            if (!/^[0-9+]+$/.test(input) || input.length > 15) {
+            if (!/^[0-9+]+$/.test(input) || input.length > 10) {
                 errorMessage.textContent = 'Please enter a valid number.';
             } else {
                 errorMessage.textContent = '';
