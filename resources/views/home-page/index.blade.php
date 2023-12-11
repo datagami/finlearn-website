@@ -169,10 +169,9 @@
                                 <p style="margin-bottom: 10px;">Monday to Friday - 7.30 pm to 9.00 pm<br>
                                     Saturdays and Sundays - 2:00 pm to 5:00 pm</p>
                             </div>
-                            <p style="margin-bottom: 10px;">Programme Start Date: <strong class="hero-p">2nd December, 2023</strong></p>
-                            <p style="margin-bottom: 10px;">Application Deadline: <strong class="hero-p">25th November , 2023</strong></p>
-                            <p style="margin-bottom: 10px;">Course Fee: <strong class="hero-p">₹ 1,50,000 +
-                                    Taxes</strong>
+                            <p style="margin-bottom: 10px;">Programme Start Date: <strong class="hero-p">6<sup>th</sup> January, 2024</strong></p>
+                            <p style="margin-bottom: 10px;">Application Deadline: <strong class="hero-p">2<sup>nd</sup> January , 2024</strong></p>
+                            <p style="margin-bottom: 10px;">Course Fee: <strong class="hero-p">₹ 1,50,000 + Taxes</strong>
                             </p>
                             <p style="margin-bottom: 10px;">Duration: <strong class="hero-p">6 Months</strong></p>
 
