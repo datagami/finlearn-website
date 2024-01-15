@@ -171,8 +171,8 @@
                                 <p style="margin-bottom: 10px;">Monday to Friday - 7.30 pm to 9.00 pm<br>
                                     Saturdays and Sundays - 2:00 pm to 5:00 pm</p>
                             </div>
-                            <p style="margin-bottom: 10px;">Programme Start Date: <strong class="hero-p">31<sup>st</sup> January, 2024</strong></p>
-                            <p style="margin-bottom: 10px;">Application Deadline: <strong class="hero-p">3<sup>rd</sup> February, 2024</strong></p>
+                            <p style="margin-bottom: 10px;">Programme Start Date: <strong class="hero-p">3<sup>rd</sup> February, 2024</strong></p>
+                            <p style="margin-bottom: 10px;">Application Deadline: <strong class="hero-p">31<sup>st</sup> January, 2024</strong></p>
                             <p style="margin-bottom: 10px;">Course Fee: <strong class="hero-p">₹ 1,50,000 + Taxes</strong>
                             </p>
                             <p style="margin-bottom: 10px;">Duration: <strong class="hero-p">6 Months</strong></p>
