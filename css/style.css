@@ -17,6 +17,8 @@ html {
   font-size: 16px;
 }
 
+
+
 body {
   font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #283034;
@@ -640,7 +642,7 @@ background-color: #f3f6f7;*/
 }
 
 .bg-map {
-   background-image: url(../images/bg-map.png); 
+   background-image: url(../images/bg-map.png);
   /* background: #ed3e3eab; */
 }
 
@@ -1268,7 +1270,7 @@ ul.ico-list li i {
 }
 
 /*------------------------------------------*/
-/*  VIDEO BUTTON COLOR 
+/*  VIDEO BUTTON COLOR
 /*------------------------------------------*/
 
 .play-btn-blue .video-play-button:after {
@@ -2652,7 +2654,7 @@ li > .lang-select {
   padding: 45px 40px 15px;
   border: 1px solid #f5f5f5;
   margin-top: -130px;
-  z-index: 999;
+  z-index: 5;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
@@ -4259,7 +4261,7 @@ ul.features li.disabled-option {
 }
 
 /*------------------------------------------*/
-/*  Testimonial Message Avatar 
+/*  Testimonial Message Avatar
 /*------------------------------------------*/
 
 .review-1 .author-avatar,
@@ -4887,7 +4889,7 @@ span.badge:hover a {
 }
 
 /*------------------------------------------*/
-/*  Image Hover Effect 
+/*  Image Hover Effect
 /*------------------------------------------*/
 
 .article-1:hover .hover-overlay > img {
@@ -4964,7 +4966,7 @@ span.badge:hover a {
 }
 
 /*------------------------------------------*/
-/*  POST TAGS 
+/*  POST TAGS
 /*------------------------------------------*/
 
 .post-share-links {
@@ -6212,7 +6214,7 @@ p.course-short-data {
 }
 
 /*------------------------------------------*/
-/*  COURSE ACCORDION  
+/*  COURSE ACCORDION
 /*------------------------------------------*/
 
 #accordion .card {
@@ -7690,21 +7692,21 @@ nav a#pull {
     text-align: center;
     color: #3c4852
   }
-  
+
   .fsd_joinfsd_grid__IFEM_ {
     padding-top: 28px;
     display: flex;
     flex-direction: row;
     gap: 10px
   }
-  
+
   .fsd_joinfsd_grid2__m_MLm {
     padding-top: 48px;
     display: flex;
     flex-direction: row;
     gap: 16px
   }
-  
+
   .fsd_joinfsd_datagrid__RWgKo {
     padding: 5px 5px;
     width: 70px;
@@ -7716,12 +7718,12 @@ nav a#pull {
     justify-content: center;
     gap: 1px
   }
-  
+
   .fsd_joinfsd_icon__srh8Y {
     width: 30px;
     text-align: center
   }
-  
+
   .fsd_joinfsd_icondata__t3uWd p {
     font-weight: 600;
     font-size: 12px;
@@ -7730,7 +7732,7 @@ nav a#pull {
     color: #3c4852;
     width: 99%
   }
-  
+
   .fsd_joinfsd_arow__okQT9 {
     width: 10px;
     display: flex
