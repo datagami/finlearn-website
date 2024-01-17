@@ -71,7 +71,10 @@
     </script>
     <!-- End Google Tag Manager -->
 
+    <!-- refrens universal script -->
+    <script defer async src="https://assets.refrens.com/venus/venera.1.4.3.js"></script>
 </head>
+
 
 
 <body>
@@ -177,97 +180,13 @@
                             </p>
                             <p style="margin-bottom: 10px;">Duration: <strong class="hero-p">6 Months</strong></p>
 
+                            <button class="refrens-venus-button btn btn-md btn-inverse-rose tra-black-hover"
+                                  data-url-key="thepla-house-by-tejals-kitchen-2yfrxr"
+                                  data-form-key="65a10926e3d59000277494e6"> Enquire Now
+                            </button>
+
                         </div>
                     </div> <!-- END HERO TEXT -->
-
-
-                    <!-- HERO REGISTER FORM -->
-                    <div class="col-md-5" id="enquire-form">
-                        <div id="register-form">
-                            <form action="{{ route('enquires') }}" method="POST" id="consultationForm"
-                                name="registerForm" class="row register-form">
-
-                                {!! csrf_field() !!}
-
-                                @if (Session::has('error'))
-                                <div class="alert alert-danger">
-                                    {{ Session::get('error') }}
-                                </div>
-                                @endif
-
-                                @if (Session::has('success'))
-                                <div class="alert alert-success">
-                                    {{ Session::get('success') }}
-                                </div>
-                                @endif
-
-
-                                <!-- Form Input -->
-                                <div id="input-name" class="col-md-12">
-                                    <input type="text" name="name" class="form-control name"
-                                        placeholder="Enter Your Name*" required>
-                                </div>
-
-                                <!-- Form Input -->
-                                <div id="input-email" class="col-md-12">
-                                    <input type="email" name="email" class="form-control email"
-                                        placeholder="Enter Your Email*" required>
-                                </div>
-
-                                <!-- Form Input -->
-                                <div id="input-phone" class="col-md-12">
-                                    <div class="input-group mb-2">
-                                        <div class="input-group-prepend">
-                                            <div class="input-group-text">+91</div>
-                                        </div>
-                                        <input type="tel" name="phone" maxlength="10" minlength="10"
-                                            id="inlineFormInputGroup" class="form-control phone"
-                                            placeholder="Enter Your Phone Number*" required>
-                                    </div>
-                                </div>
-                                <!-- Form Input -->
-                                <div id="input-phone" class="col-md-12">
-                                    <input type="text" name="city" class="form-control phone"
-                                        placeholder="Enter Your City*" required>
-                                </div>
-                                <div id="input-name" class="col-md-6">
-                                    <select class="form-control" name="qualification" id="qualification">
-                                        <option disabled selected value>Qualification</option>
-                                        <option value="Postgraduate">Post Graduate</option>
-                                        <option value="Graduate">Graduate</option>
-                                        <option value="Final Year">Final Year</option>
-                                        <option value="Undergraduate">Under Graduate</option>
-                                    </select>
-                                </div>
-                                <div id="input-name" class="col-md-6">
-
-                                    <select class="form-control" name="experience" id="experience">
-                                        <option disabled selected value>Experience</option>
-                                        <option value="0-2 Years">Fresher</option>
-                                        <option value="2-3 Years">1 Year</option>
-                                        <option value="2-3 Years">2 Year</option>
-                                        <option value="2-3 Years">3 Year</option>
-                                        <option value="2-3 Years">4 Year</option>
-                                        <option value="5+ Years">5+ Years</option>
-                                    </select>
-                                </div>
-
-                                <!-- Form Button -->
-                                <div class="col-md-12 form-btn">
-                                    <button type="submit"
-                                        class="btn btn-md btn-rose tra-black-hover submit">Submit</button>
-                                </div>
-
-                                <!-- Form Message -->
-                                <div class="col-md-12 register-form-msg text-center">
-                                    <span class="loading"></span>
-                                </div>
-
-                            </form>
-                        </div>
-                    </div> <!-- END HERO REGISTER FORM -->
-
-
                 </div> <!-- End row -->
             </div> <!-- End container -->
         </section> <!-- END HERO-9 -->
@@ -646,9 +565,9 @@
                         <div class="all-courses-btn">
                             <p style="padding-bottom: 10px;">Ready to enhance your career?</p>
                             <!-- <a href="#" class="btn btn-md btn-tra-grey">Enrol Now</a> -->
-                            <a rel="noreferrer nofollow" target="_blank" href="javascript:void(0);" data-toggle="modal"
-                                data-target="#enroll-now-popup" aria-label="Enroll Now"><button
-                                    class="btn btn-md btn-rose tra-black-hover">Enquire Now</button></a>
+                            <button data-url-key="thepla-house-by-tejals-kitchen-2yfrxr"
+                            data-form-key="65a10926e3d59000277494e6"
+                            class="refrens-venus-button btn btn-md btn-rose tra-black-hover">Enquire Now</button>
                         </div>
                     </div>
                 </div>
@@ -980,10 +899,10 @@
                             <h2 class="h2-sm">Curriculum</h2>
                             <div class="master-curriculum-head-content">
 
-                                <a rel="noreferrer nofollow" target="_blank" href="javascript:void(0);"
-                                    data-toggle="modal" data-target="#download-curriculum-popup"
-                                    aria-label="Download Curriculum"><button
-                                        class="master-curriculum-download-btn">Download Brochure</button></a>
+                                <a rel="noreferrer nofollow" target="_blank" href="{{ route('IBOP-Brochure.pdf', ['filename' => 'IBOP-Brochure.pdf']) }}"
+                                    aria-label="Download Curriculum">
+                                    <button class="master-curriculum-download-btn">Download Brochure</button>
+                                </a>
                             </div>
                         </div>
                         <div class="suggetion-wrapper">
@@ -1038,9 +957,8 @@
 
                                                 <div class="d-md-block d-block">
                                                     <a rel="noreferrer nofollow" target="_blank"
-                                                        href="javascript:void(0);" data-toggle="modal"
+                                                        href="{{ route('IBOP-Brochure.pdf', ['filename' => 'IBOP-Brochure.pdf']) }}"
                                                         class="master-curriculum-download-brochure-btn"
-                                                        data-target="#download-curriculum-popup"
                                                         aria-label="Download Brochure" style="color:#ffff;">Download
                                                         Brochure</a>
                                                 </div>
@@ -1074,9 +992,8 @@
 
                                                     <div class="d-md-block d-block">
                                                         <a rel="noreferrer nofollow" target="_blank"
-                                                            href="javascript:void(0);" data-toggle="modal"
+                                                            href="{{ route('IBOP-Brochure.pdf', ['filename' => 'IBOP-Brochure.pdf']) }}"
                                                             class="master-curriculum-download-brochure-btn"
-                                                            data-target="#download-curriculum-popup"
                                                             aria-label="Download Brochure" style="color:#ffff;">Download
                                                             Brochure</a>
                                                     </div>
@@ -1111,9 +1028,8 @@
 
                                                     <div class="d-md-block d-block">
                                                         <a rel="noreferrer nofollow" target="_blank"
-                                                            href="javascript:void(0);" data-toggle="modal"
+                                                            href="{{ route('IBOP-Brochure.pdf', ['filename' => 'IBOP-Brochure.pdf']) }}"
                                                             class="master-curriculum-download-brochure-btn"
-                                                            data-target="#download-curriculum-popup"
                                                             aria-label="Download Brochure" style="color:#ffff;">Download
                                                             Brochure</a>
                                                     </div>
@@ -1136,94 +1052,9 @@
                                 <p class="master-counselling-form-text">We are happy to help you 24/7</p>
                             </div>
                             <div class="master-counselling-form-body">
-                                <form action="{{ route('enquires') }}" method="POST" class="form-default" name="form"
-                                    id="mscontactusfm" accept-charset="UTF-8" enctype="multipart/form-data">
-                                    {!! csrf_field() !!}
-
-                                    @if (Session::has('error'))
-                                    <div class="alert alert-danger">
-                                        {{ Session::get('error') }}
-                                    </div>
-                                    @endif
-
-                                    @if (Session::has('success'))
-                                    <div class="alert alert-success">
-                                        {{ Session::get('success') }}
-                                    </div>
-                                    @endif
-
-                                    <div class="form-group">
-                                        <input class="form-control" id="name" name="name" placeholder="Full Name*"
-                                            type="text" name="SingleLine" value="" fieldtype="1" maxlength="255"
-                                            required="">
-                                    </div>
-                                    <div class="form-group">
-                                        <input class="form-control" placeholder="Email*" name="email" type="email"
-                                            maxlength="255" id="email" value="" fieldtype="9" required="">
-                                    </div>
-
-                                    <div class="form-group">
-                                        <div class="row">
-                                            <div class="col-sm-12">
-                                                <div class="input-group mb-2">
-                                                    <div class="input-group-prepend" style="height: 42px;">
-                                                        <div class="input-group-text">+91</div>
-                                                    </div>
-                                                    <input class="form-control rounded-0" placeholder="Mobile Number*"
-                                                        type="text" compname="PhoneNumber" name="phone" phoneformat="1"
-                                                        iscountrycodeenabled="true" maxlength="10" minlength="10"
-                                                        value="" fieldtype="11" id="phone_no1" required="">
-                                                    <div id="error-message1" class="error-message1"></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="form-group">
-                                        <input class="form-control" placeholder="City Name*" type="text" name="city"
-                                            value="" fieldtype="2" maxlength="255" required>
-                                    </div>
-                                    <div class="form-group">
-                                        <select class="form-control" name="qualification" id="qualification" required>
-                                            <option disabled selected value>Qualification*</option>
-                                            <option value="Postgraduate">Post Graduate</option>
-                                            <option value="Graduate">Graduate</option>
-                                            <option value="Final Year">Final Year</option>
-                                            <option value="Undergraduate">Under Graduate</option>
-                                        </select>
-                                    </div>
-                                    <div class="form-group">
-                                        <select class="form-control" name="experience" id="experience" required>
-                                            <option disabled selected value>Experience*</option>
-                                            <option value="0-2 Years">Fresher</option>
-                                            <option value="2-3 Years">1 Year</option>
-                                            <option value="2-3 Years">2 Year</option>
-                                            <option value="2-3 Years">3 Year</option>
-                                            <option value="2-3 Years">4 Year</option>
-                                            <option value="5+ Years">5+ Years</option>
-                                        </select>
-                                    </div>
-                                    <!-- <div class="form-group">
-                                        <div class="row">
-                                            <div class="col">
-                                                <input class="form-control" placeholder="Years of Work Experience*"
-                                                    type="number" name="exp_yrs" min="0" required>
-                                            </div>
-                                            <div class="col">
-                                                <input class="form-control" placeholder="Months of Work Experience*"
-                                                    type="number" name="months" min="0" max="11" required>
-                                            </div>
-                                        </div>
-                                    </div> -->
-                                    <div class="">
-                                        <input id="pg-drop-query-fm" type="submit" value="Submit" class="form-submit">
-                                    </div>
-                                    <label class="form-check-privacy-white" for="exampleCheck22"><input type="checkbox"
-                                            id="exampleCheck22" class="form-check-input ip-cs-bx-check" required=""
-                                            value="true" checked=""> By providing your contact details, you agree to our
-                                        Terms of Use &amp; Privacy
-                                        Policy</label>
-                                </form>
+                                <button data-url-key="thepla-house-by-tejals-kitchen-2yfrxr"
+                                         data-form-key="65a10926e3d59000277494e6"
+                                         class="refrens-venus-button btn btn-md btn-rose tra-black-hover">Schedule Now</button>
                             </div>
                         </div>
                     </div>
@@ -1721,9 +1552,9 @@
                         <div class="all-courses-btn">
                             <p style="padding-bottom:10px;">See yourself in one of these role?</p>
                             <!-- <a href="#" class="btn btn-md btn-tra-grey">Enrol Now</a> -->
-                            <a rel="noreferrer nofollow" target="_blank" href="javascript:void(0);" data-toggle="modal"
-                                data-target="#enroll-now-popup" aria-label="Enroll Now"><button
-                                    class="btn btn-md btn-rose tra-black-hover">Enquire Now</button></a>
+                            <button data-url-key="thepla-house-by-tejals-kitchen-2yfrxr"
+                             data-form-key="65a10926e3d59000277494e6"
+                             class="refrens-venus-button btn btn-md btn-rose tra-black-hover">Enquire Now</button>
                         </div>
                     </div>
                 </div>
@@ -2554,7 +2385,7 @@
             <div class="container">
                 <div class="col-lg-6 col-sm-6 col-xs-6 div-line pd0">
                     <a href="tel:+918104971761" class="fix-link callme">
-                        <i class="fa fa-phone f-icon" aria-hidden="true"></i> <strong>CALL NOW</strong>
+                            <i class="fa fa-phone f-icon" aria-hidden="true"></i> <strong>CALL NOW</strong>
                     </a>
                 </div>
 

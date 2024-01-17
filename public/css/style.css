@@ -7,6 +7,10 @@ html {
     font-size: 16px;
 }
 
+:root {
+    --rfem-primary-color: #00456f;
+}
+
 body {
     font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #283034;
@@ -1022,6 +1026,14 @@ ul.ico-list li i {
     border-color: #ffb605;
 }
 
+.btn-inverse-rose,
+.scroll .btn-inverse-rose,
+.white-color .btn-inverse-rose {
+    color: #00456f !important;
+    background-color:  #fff !important;;
+    border-color: #fff;
+}
+
 /*------------------------------------------*/
 /*  Button Hover
 /*------------------------------------------*/
@@ -1059,7 +1071,15 @@ ul.ico-list li i {
     color: #ffff !important;
     background-color: #00adef;
     border-color: #00adef !important;
-    
+
+}
+
+.tra-black-hover:hover,
+.scroll .tra-black-hover:hover .white-color .tra-black-hover:hover {
+    color: #00adef !important;
+    background-color: #CCC !important;
+    border-color: #CCC !important;
+
 }
 
 .tra-grey-hover:hover,
@@ -1261,7 +1281,7 @@ ul.ico-list li i {
 }
 
 /*------------------------------------------*/
-/*  VIDEO BUTTON COLOR 
+/*  VIDEO BUTTON COLOR
 /*------------------------------------------*/
 
 .play-btn-blue .video-play-button:after {
@@ -4227,7 +4247,7 @@ ul.features li.disabled-option {
 }
 
 /*------------------------------------------*/
-/*  Testimonial Message Avatar 
+/*  Testimonial Message Avatar
 /*------------------------------------------*/
 
 .review-1 .author-avatar,
@@ -4855,7 +4875,7 @@ span.badge:hover a {
 }
 
 /*------------------------------------------*/
-/*  Image Hover Effect 
+/*  Image Hover Effect
 /*------------------------------------------*/
 
 .article-1:hover .hover-overlay > img {
@@ -4932,7 +4952,7 @@ span.badge:hover a {
 }
 
 /*------------------------------------------*/
-/*  POST TAGS 
+/*  POST TAGS
 /*------------------------------------------*/
 
 .post-share-links {
@@ -6187,7 +6207,7 @@ p.course-short-data {
 }
 
 /*------------------------------------------*/
-/*  COURSE ACCORDION  
+/*  COURSE ACCORDION
 /*------------------------------------------*/
 
 #accordion .card {
@@ -8150,7 +8170,7 @@ svg {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.7);
   }
-  
+
   .modal-content-popup {
     position: absolute;
     top: 60%;
@@ -8168,7 +8188,7 @@ svg {
     color: #00456f;
     font-weight: 700;
   }
-  
+
   .close {
     position: absolute;
     top: 10px;
@@ -8176,7 +8196,7 @@ svg {
     font-size: 20px;
     cursor: pointer;
   }
-  
+
   /* Media query for smaller screens (e.g., mobile) */
   @media screen and (max-width: 768px) {
     .modal-content-popup {
@@ -8205,13 +8225,13 @@ svg {
 h2.h2-sm {
     font-size: 2.5rem !important;
     padding-bottom:10px !important;
-  } 
+  }
 
   @media screen and (max-width: 768px) {
     h2.h2-sm {
         font-size: 1.65rem !important;
         padding-bottom:10px !important;
-      } 
+      }
 }
 
 .input-group-prepend {
@@ -8228,3 +8248,6 @@ h2.h2-sm {
 }
 
 
+.RFEM-modal-overlay {
+    z-index: 100000 !important;
+}
