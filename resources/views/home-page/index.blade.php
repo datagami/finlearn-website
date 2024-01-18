@@ -160,7 +160,7 @@
 
 
                     <!-- HERO TEXT -->
-                    <div class="col-md-7">
+                    <div class="col-md-12">
                         <div class="hero-txt mb-40 white-color">
 
                             <!-- Title -->
@@ -169,21 +169,27 @@
                             <h2 class="color-yellow h-size">Build Your Career with Our 100% Job Assurance <strong>Investment Banking
                                 Course</strong></h2>
                             <br>
-                            <h5>Class Timings:</h5>
-                            <div class="course-detail">
-                                <p style="margin-bottom: 10px;">Monday to Friday - 7.30 pm to 9.00 pm<br>
-                                    Saturdays and Sundays - 2:00 pm to 5:00 pm</p>
-                            </div>
-                            <p style="margin-bottom: 10px;">Programme Start Date: <strong class="hero-p">3<sup>rd</sup> February, 2024</strong></p>
-                            <p style="margin-bottom: 10px;">Application Deadline: <strong class="hero-p">31<sup>st</sup> January, 2024</strong></p>
-                            <p style="margin-bottom: 10px;">Course Fee: <strong class="hero-p">₹ 1,50,000 + Taxes</strong>
-                            </p>
-                            <p style="margin-bottom: 10px;">Duration: <strong class="hero-p">6 Months</strong></p>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h5>Program Details:</h5>
+                                    <p style="margin-bottom: 10px;">Programme Start Date: <strong class="hero-p">3<sup>rd</sup> February, 2024</strong></p>
+                                    <p style="margin-bottom: 10px;">Application Deadline: <strong class="hero-p">31<sup>st</sup> January, 2024</strong></p>
+                                    <p style="margin-bottom: 10px;">Course Fee: <strong class="hero-p">₹ 1,50,000 + Taxes</strong></p>
+                                    <p style="margin-bottom: 10px;">Duration: <strong class="hero-p">6 Months</strong></p>
+                                </div>
+                                <div class="col-md-6 course-detail">
+                                    <h5>Class Timings:</h5>
+                                    <p style="margin-bottom: 10px;">Monday to Friday - 7.30 pm to 9.00 pm</p>
+                                    <p style="margin-bottom: 10px;">Saturdays and Sundays - 2:00 pm to 5:00 pm</p>
+                                    <button style="margin-top: 10px;" class="refrens-venus-button btn btn-md btn-inverse-rose tra-black-hover"
+                                          data-url-key="datagami"
+                                          data-form-key="65a22e015aa16200208d993a"> Enquire Now
+                                    </button>
+                                </div>
 
-                            <button class="refrens-venus-button btn btn-md btn-inverse-rose tra-black-hover"
-                                  data-url-key="thepla-house-by-tejals-kitchen-2yfrxr"
-                                  data-form-key="65a10926e3d59000277494e6"> Enquire Now
-                            </button>
+                            </div>
+
+
 
                         </div>
                     </div> <!-- END HERO TEXT -->
@@ -565,8 +571,8 @@
                         <div class="all-courses-btn">
                             <p style="padding-bottom: 10px;">Ready to enhance your career?</p>
                             <!-- <a href="#" class="btn btn-md btn-tra-grey">Enrol Now</a> -->
-                            <button data-url-key="thepla-house-by-tejals-kitchen-2yfrxr"
-                            data-form-key="65a10926e3d59000277494e6"
+                            <button data-url-key="datagami"
+                            data-form-key="65a22e015aa16200208d993a"
                             class="refrens-venus-button btn btn-md btn-rose tra-black-hover">Enquire Now</button>
                         </div>
                     </div>
@@ -1052,8 +1058,8 @@
                                 <p class="master-counselling-form-text">We are happy to help you 24/7</p>
                             </div>
                             <div class="master-counselling-form-body">
-                                <button data-url-key="thepla-house-by-tejals-kitchen-2yfrxr"
-                                         data-form-key="65a10926e3d59000277494e6"
+                                <button data-url-key="datagami"
+                                         data-form-key="65a22e015aa16200208d993a"
                                          class="refrens-venus-button btn btn-md btn-rose tra-black-hover">Schedule Now</button>
                             </div>
                         </div>
@@ -1552,8 +1558,8 @@
                         <div class="all-courses-btn">
                             <p style="padding-bottom:10px;">See yourself in one of these role?</p>
                             <!-- <a href="#" class="btn btn-md btn-tra-grey">Enrol Now</a> -->
-                            <button data-url-key="thepla-house-by-tejals-kitchen-2yfrxr"
-                             data-form-key="65a10926e3d59000277494e6"
+                            <button data-url-key="datagami"
+                             data-form-key="65a22e015aa16200208d993a"
                              class="refrens-venus-button btn btn-md btn-rose tra-black-hover">Enquire Now</button>
                         </div>
                     </div>
